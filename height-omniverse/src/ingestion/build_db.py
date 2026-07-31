@@ -100,6 +100,12 @@ if gp.exists():
         con.execute("UPDATE genes SET monogenic_stature_evidence=?, direction_of_effect=?, source_provenance=source_provenance||'; '||? WHERE symbol=?",
                     [r.get("key_phenotype",""), r.get("height_direction",""), r.get("source_id",""), r.get("gene","")])
 
+# ---------------- apply migration_002 (additive schema hardening) ----------------
+mig = ROOT / "database" / "schemas" / "migration_002.sql"
+if mig.exists():
+    con.execute(mig.read_text())
+    print("applied migration_002 (provenance/design/endpoint/integrity fields + views)")
+
 n_genes = con.execute("SELECT count(*) FROM genes").fetchone()[0]
 print(f"genes (Approved): {n_genes}")
 print("curated loaded:", {k:v for k,v in loaded.items() if v})
