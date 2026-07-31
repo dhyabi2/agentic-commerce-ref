@@ -32,7 +32,7 @@ HGNC complete set, Crossref/DOI, OMIM (via literature). Query/round logs:
 | category | status | basis |
 |---|---|---|
 | Schema/QA integrity | **saturated** | 34 tests; migration hardened; all edges/studies source-linked |
-| Human final-height interventions (endocrine) | **not saturated** | 62 included incl. new AI/GH/GnRHa/oxandrolone/IGF-1 final-height trials; forward/backward rounds still yielding items |
+| Human final-height interventions (endocrine) | **partially saturated** | 3 citation rounds run; **212 included studies**; 4/15 query categories saturated (GH/ISS, vosoritide, physeal distraction, resting-zone stem cell → round-3 = 0 new); 11 deep-literature categories (esp. NPR2/CNP, growth-plate biology, ACAN) still yield new items → round 4+ |
 | Surrogate→final-height calibration | **not saturated** (rich) | 17 curated; velocity-only class (vosoritide/CNP/FGFR3i) growing |
 | Human height genetics (monogenic/allelic) | **not saturated** | 21 verified genes + GWAS anchors; full GWAS-sumstat fine-mapping not run |
 | GWAS common-variant fine-mapping / MR / LDSC-SEG | **externally blocked (compute/data)** | needs LD panels + full sumstats; enrichment done on curated set (perm p=0.023) |

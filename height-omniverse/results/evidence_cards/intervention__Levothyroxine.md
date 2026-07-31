@@ -8,7 +8,7 @@
 - congenital hypothyroidism (screened) (observational cohorts): surrogate=catch-up velocity; adult height=normal adult height if treated early; incomplete if late; **translated=YES** [PMID 11580992]
 
 ## Interactions (pathway convergence; blank=untested, NOT safe/additive)
-- no qualifying evidence located after 1 completed search round(s)
+- no qualifying evidence located after 3 completed search round(s)
 
 _Provenance: PMID 11580992_
 

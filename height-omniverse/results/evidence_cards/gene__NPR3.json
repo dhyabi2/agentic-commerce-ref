@@ -10,12 +10,17 @@
     "specificity": 0.51,
     "gp_expression": 0.01
   },
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "35233476",
       "title": "LoF NPR-C (NPR3) extreme tall stature",
       "year": "2022"
+    },
+    {
+      "pmid": "27959934",
+      "title": "Mice with an N-Ethyl-N-Nitrosourea (ENU) Induced Tyr209Asn Mutation in Natriuretic Peptide Receptor 3 (NPR3) Provide a Model for Kyphosis Associated with Activation of the MAPK Signaling Pathway.",
+      "year": "2016"
     }
   ],
   "dual_evidence": {

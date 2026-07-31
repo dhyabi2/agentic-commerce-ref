@@ -5,8 +5,8 @@
   "ensembl": "ENSG00000185960",
   "genetics_direction": "shorter",
   "monogenic_phenotype": "Leri-Weill dyschondrosteosis / ISS; mesomelic",
-  "zonal_topology": "no qualifying evidence located after 1 completed search round(s) (or absent in mouse atlas)",
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "zonal_topology": "no qualifying evidence located after 3 completed search round(s) (or absent in mouse atlas)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "42077444",

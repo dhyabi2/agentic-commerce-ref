@@ -10,7 +10,7 @@
     "specificity": 0.3,
     "gp_expression": 13.53
   },
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "41967490",
@@ -26,6 +26,66 @@
       "pmid": "38232712",
       "title": "Pathogenic ACAN variants + 3-year GH response",
       "year": "2024"
+    },
+    {
+      "pmid": "38613222",
+      "title": "Genotype and phenotype in patients with ACAN gene variants: Three cases and literature review.",
+      "year": "2024"
+    },
+    {
+      "pmid": "37025453",
+      "title": "Case report: A novel heterozygous frameshift mutation of ACAN in a Chinese family with short stature and advanced bone age.",
+      "year": "2023"
+    },
+    {
+      "pmid": "36387899",
+      "title": "Description of the molecular and phenotypic spectrum in Chinese patients with aggrecan deficiency: Novel ACAN heterozygous variants in eight Chinese children and a review of the literature.",
+      "year": "2022"
+    },
+    {
+      "pmid": "35620465",
+      "title": "The Spectrum of ACAN Gene Mutations in a Selected Chinese Cohort of Short Stature: Genotype-Phenotype Correlation.",
+      "year": "2022"
+    },
+    {
+      "pmid": "35330881",
+      "title": "Evaluation of Growth Hormone Therapy in Seven Chinese Children With Familial Short Stature Caused by Novel ACAN Variants.",
+      "year": "2022"
+    },
+    {
+      "pmid": "40987814",
+      "title": "Expanding the molecular spectrum of aggrecanopathies: exploring 24 patients with ACAN significant variants.",
+      "year": "2025"
+    },
+    {
+      "pmid": "33606014",
+      "title": "A High Proportion of Novel ACAN Mutations and Their Prevalence in a Large Cohort of Chinese Short Stature Children.",
+      "year": "2021"
+    },
+    {
+      "pmid": "33471655",
+      "title": "Growth-Promoting Therapies May Be Useful In Short Stature Patients With Nonspecific Skeletal Abnormalities Caused By Acan Heterozygous Mutations: Six Chinese Cases And Literature Review.",
+      "year": "2020"
+    },
+    {
+      "pmid": "33298914",
+      "title": "A novel mutation in the ACAN gene in a family with autosomal dominant short stature and intervertebral disc disease.",
+      "year": "2020"
+    },
+    {
+      "pmid": "31841439",
+      "title": "High frequency of pathogenic ACAN variants including an intragenic deletion in selected individuals with short stature.",
+      "year": "2020"
+    },
+    {
+      "pmid": "28939912",
+      "title": "Genetic screening confirms heterozygous mutations in ACAN as a major cause of idiopathic short stature.",
+      "year": "2017"
+    },
+    {
+      "pmid": "34605228",
+      "title": "Identification of novel ACAN mutations in two Chinese families and genotype-phenotype correlation in patients with 74 pathogenic ACAN variations.",
+      "year": "2021"
     }
   ],
   "dual_evidence": {

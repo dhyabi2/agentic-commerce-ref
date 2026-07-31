@@ -10,7 +10,7 @@
     "specificity": 0.52,
     "gp_expression": 0.51
   },
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "41967490",
@@ -21,6 +21,36 @@
       "pmid": "41512838",
       "title": "NPR2 functional variants support CNP therapeutic rationale",
       "year": "2026"
+    },
+    {
+      "pmid": "38078000",
+      "title": "Unveiling the pathogenic mechanisms of NPR2 missense variants: insights into the genotype-associated severity in acromesomelic dysplasia and short stature.",
+      "year": "2023"
+    },
+    {
+      "pmid": "37501190",
+      "title": "Novel pathogenic NPR2 variants in short stature patients and the therapeutic response to rhGH.",
+      "year": "2023"
+    },
+    {
+      "pmid": "32720985",
+      "title": "Short Stature is Progressive in Patients with Heterozygous NPR2 Mutations.",
+      "year": "2020"
+    },
+    {
+      "pmid": "31960617",
+      "title": "Role of NPR2 mutation in idiopathic short stature: Identification of two novel mutations.",
+      "year": "2020"
+    },
+    {
+      "pmid": "25703509",
+      "title": "Heterozygous mutations in natriuretic peptide receptor-B (NPR2) gene as a cause of short stature.",
+      "year": "2015"
+    },
+    {
+      "pmid": "24259409",
+      "title": "Overgrowth syndrome associated with a gain-of-function mutation of the natriuretic peptide receptor 2 (NPR2) gene.",
+      "year": "2014"
     }
   ],
   "dual_evidence": {

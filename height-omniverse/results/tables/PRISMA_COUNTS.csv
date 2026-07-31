@@ -1,5 +1,7 @@
 stage,count
-identified,387
-screened,81
-included,60
-excluded,21
+identified,869
+screened,472
+included,212
+excluded,260
+rounds,3
+categories_saturated,4

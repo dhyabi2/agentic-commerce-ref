@@ -10,12 +10,17 @@
     "specificity": 0.34,
     "gp_expression": 0.02
   },
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "37629102",
       "title": "Disruption of nppcl in zebrafish",
       "year": "2023"
+    },
+    {
+      "pmid": "28661490",
+      "title": "Mutations in C-natriuretic peptide (NPPC): a novel cause of autosomal dominant short stature.",
+      "year": "2018"
     }
   ],
   "dual_evidence": {

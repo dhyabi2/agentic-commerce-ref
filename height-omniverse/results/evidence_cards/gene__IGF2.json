@@ -10,8 +10,14 @@
     "specificity": 0.43,
     "gp_expression": 1.12
   },
-  "compounds": "no qualifying evidence located after 1 completed search round(s)",
-  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "compounds": "no qualifying evidence located after 3 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "40384861",
+      "title": "Skeletal stem/progenitor cell-derived rather than osteoblast-derived IGF2 supports the development and homeostasis of skeletal system via STAT3.",
+      "year": "2025"
+    }
+  ],
   "dual_evidence": {
     "gene": "IGF2",
     "height_direction": "shorter",
