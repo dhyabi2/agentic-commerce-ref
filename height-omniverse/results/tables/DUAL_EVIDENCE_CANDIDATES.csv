@@ -1,0 +1,22 @@
+gene,height_direction,pathway,gp_expression,top_zone,zone_specificity,mode_genetics,mode_gp_expressed,mode_zone_specific,mode_has_compound,n_evidence_modes,high_priority_research,source
+IHH,shorter (digits),Indian hedgehog,1.46,Prehypertrophic,0.58,1,1,1,0,3,True,PMID 20024692
+IGF2,shorter,imprinted IGF-2 ligand,1.12,Resting,0.43,1,1,1,0,3,True,PMID 26154720
+STAT5B,shorter,GHR->STAT5B->IGF1,0.92,Resting,0.51,1,1,1,0,3,True,PMID 13679528
+EZH2,taller,PRC2 H3K27 methyltransferase,0.89,Proliferative,0.43,1,1,1,0,3,True,PMID 24214728
+ESR1,taller,ERalpha in growth plate,0.8,Resting,0.46,1,1,1,0,3,True,PMID 8090165
+STC2,taller,stanniocalcin-2 inhibits PAPP-A,0.77,Prehypertrophic,0.58,1,1,1,0,3,True,PMID 28146470
+PAPPA2,shorter,protease liberating IGF-1 from IGFBP,0.73,Resting,0.87,1,1,1,0,3,True,PMID 26902202
+IGF1,shorter,IGF-1 ligand (systemic),0.58,Resting,0.46,1,1,1,0,3,True,PMID 8857020
+NPR2,shorter,CNP->NPR2/cGMP,0.51,Resting,0.52,1,1,1,0,3,True,PMID 15146390
+ACAN,shorter,aggrecan matrix,13.53,Prehypertrophic,0.3,1,1,0,0,2,False,PMID 27870580
+IGF1R,shorter,IGF-1 receptor (systemic),3.52,Prehypertrophic,0.33,1,1,0,0,2,False,PMID 14657428
+FGFR3,shorter,FGFR3 inhibits proliferation,2.91,Prehypertrophic,0.39,1,1,0,0,2,False,PMID 7913883
+GHR,shorter,GH receptor (systemic),2.22,Hypertrophic,0.3,1,1,0,0,2,False,PMID 8488849
+NSD1,taller,histone methyltransferase,1.63,Prehypertrophic,0.31,1,1,0,0,2,False,PMID 12687502
+DNMT3A,taller,DNA methyltransferase,1.3,Prehypertrophic,0.29,1,1,0,0,2,False,PMID 27701732
+GPC3,taller,glypican-3 (IGF2/hedgehog),0.08,Prehypertrophic,0.32,1,0,0,0,1,False,PMID 8589713
+IGFALS,shorter (mild),acid-labile subunit,0.03,Hypertrophic,0.39,1,0,0,0,1,False,PMID 21396577
+NPPC,taller,CNP ligand -> NPR2,0.02,Resting,0.34,1,0,0,0,1,False,PMID 17373680
+NPR3,taller,loss of CNP clearance receptor,0.01,Hypertrophic,0.51,1,0,0,0,1,False,PMID 40171685
+CYP19A1,taller,estrogen biosynthesis (systemic),0.0,Prehypertrophic,0.39,1,0,0,0,1,False,PMID 8530621
+SHOX,shorter,growth-plate homeobox TF,0.0,NA(absent in mouse),0.0,1,0,0,0,1,False,PMID 20301394
