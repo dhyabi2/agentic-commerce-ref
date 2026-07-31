@@ -1,0 +1,63 @@
+study_id,pmid,title,year,journal,query_id,endpoint_type,source
+L1,42464260,Near-final height in ISS responsive to IGF-1 generation test (rhGH retrospective),2026,BMC Endocr Disord,Q1,near_final,EuropePMC/NCBI 2026-07-31
+L2,41632726,Long-Acting PEGylated GH in ISS: 2-Year Results,2026,Horm Res Paediatr,Q1,velocity,EuropePMC/NCBI 2026-07-31
+L3,41693186,Spontaneous final adult height in ISS,2025,Pediatr Endocrinol Diabetes Metab,Q1,adult_height,EuropePMC/NCBI 2026-07-31
+L4,40621613,GH adjusted for GH sensitivity in ISS,2025,Eur J Endocrinol,Q1,velocity,EuropePMC/NCBI 2026-07-31
+L5,40326775,Aromatase inhibitors + GH for ISS in male adolescents,2025,JCEM,Q1,near_final,EuropePMC/NCBI 2026-07-31
+L6,39262574,Anastrozole vs Letrozole to Augment Height in Pubertal Males ISS: 3-Year RCT,2024,J Endocr Soc,Q2,near_final,EuropePMC/NCBI 2026-07-31
+L7,38628587,Anastrozole after leuprorelin+anastrozole improves near-adult height (GAIL ph2),2024,Front Endocrinol,Q2,near_final,EuropePMC/NCBI 2026-07-31
+L8,37988665,Anastrozole on final height + sex hormones in pubertal boys on GH,2023,endocrine,Q2,adult_height,EuropePMC/NCBI 2026-07-31
+L9,37124748,AI vs GnRH analogue for final height (comparative),2023,Front Endocrinol,Q2,adult_height,EuropePMC/NCBI 2026-07-31
+L10,40037541,Anti-androgen + AI do NOT enhance height in CAH,2025,JCEM,Q2,adult_height,EuropePMC/NCBI 2026-07-31
+L11,42518139,Real-world vosoritide in Chinese children with achondroplasia,2026,Adv Ther,Q3,velocity,EuropePMC/NCBI 2026-07-31
+L12,41967490,Phase II basket trial vosoritide in RASopathies/ACAN/NPR2 deficiency,2026,JCEM,Q3,velocity,EuropePMC/NCBI 2026-07-31
+L13,41247754,Once-Weekly Navepegritide APPROACH RCT,2026,JAMA Pediatr,Q3,velocity,EuropePMC/NCBI 2026-07-31
+L14,41232919,Real-world vosoritide age-dependent effectiveness,2026,Bone,Q3,velocity,EuropePMC/NCBI 2026-07-31
+L15,40471380,Real-world vosoritide (Portugal),2025,Adv Ther,Q3,velocity,EuropePMC/NCBI 2026-07-31
+L16,38813446,Vosoritide for hypochondroplasia phase 2,2024,EClinicalMedicine,Q4,velocity,EuropePMC/NCBI 2026-07-31
+L17,39427650,Vosoritide hypochondroplasia PK/PD,2026,Horm Res Paediatr,Q4,velocity,EuropePMC/NCBI 2026-07-31
+L18,39399714,Vosoritide under 5 years achondroplasia,2024,Transl Pediatr,Q4,velocity,EuropePMC/NCBI 2026-07-31
+L19,41641077,Infigratinib improves linear bone growth in Aga2/+ mouse,2026,JBMR Plus,Q4,bone_length,EuropePMC/NCBI 2026-07-31
+L20,42130798,Surpassing genetic height potential after depot leuprolide,2026,Front Pediatr,Q5,adult_height,EuropePMC/NCBI 2026-07-31
+L21,40564714,Final adult height girls GnRH analogues for precocious puberty ~age 8,2025,Children (Basel),Q5,adult_height,EuropePMC/NCBI 2026-07-31
+L22,39533736,Leuprolide vs triptorelin q3mo for CPP,2025,Clin Exp Pediatr,Q5,velocity,EuropePMC/NCBI 2026-07-31
+L23,31862699,Oxandrolone + timing of pubertal induction on final height Turner (final analysis),2021,Arch Dis Child,Q6,adult_height,EuropePMC/NCBI 2026-07-31
+L24,21493672,Oxandrolone + timing pubertal induction final height Turner (RCT),2011,BMJ,Q6,adult_height,EuropePMC/NCBI 2026-07-31
+L25,24751470,Oxandrolone + ethinylestradiol pubertal progression/velocity Turner,2014,Horm Res Paediatr,Q6,velocity,EuropePMC/NCBI 2026-07-31
+L26,40626687,Near-adult height rhIGF-1 for severe growth failure (IGFD registry),2026,JCEM,Q7,near_final,EuropePMC/NCBI 2026-07-31
+L27,39657622,Long-term Laron IGF-1 over 22 years (Saudi cohort),2026,Horm Res Paediatr,Q7,adult_height,EuropePMC/NCBI 2026-07-31
+L28,33434161,rhIGF1 with/without Laron effectiveness,2021,Eur J Endocrinol,Q7,velocity,EuropePMC/NCBI 2026-07-31
+L29,35250870,Pubertal timing/growth in severe primary IGF-1 deficiency,2022,Front Endocrinol,Q7,velocity,EuropePMC/NCBI 2026-07-31
+L30,41748604,Excess FGFR3 disrupts resting-zone chondrocyte turnover via CREB,2026,Nat Commun,Q8,mechanism,EuropePMC/NCBI 2026-07-31
+L31,41188231,Dnmt1 determines bone length via GP chondrocyte energy metabolism,2025,Nat Commun,Q8,bone_length,EuropePMC/NCBI 2026-07-31
+L32,41560384,Multiple metaphyseal hole creation on long-bone growth (rabbit),2026,Yonsei Med J,Q8,bone_length,EuropePMC/NCBI 2026-07-31
+L33,40714875,Retinoid antagonist attenuates growth inhibition after GP injury (mouse),2025,J Orthop Res,Q8,bone_length,EuropePMC/NCBI 2026-07-31
+L34,40765829,FGF19 disrupts cartilage via FGFR4/beta-catenin,2025,Int J Biol Sci,Q8,mechanism,EuropePMC/NCBI 2026-07-31
+L35,40588242,GPER-1 facilitates chondrocyte proliferation in pubertal GP,2025,Bone Joint Res,Q8,mechanism,EuropePMC/NCBI 2026-07-31
+L36,40193585,AI alone or with GH increases final height in short pubertal boys,2025,JCEM,Q9,adult_height,EuropePMC/NCBI 2026-07-31
+L37,40478277,Mineral content/ECM in mouse GP during epiphyseal fusion,2025,Calcif Tissue Int,Q9,mechanism,EuropePMC/NCBI 2026-07-31
+L38,41329658,Insulin's role in local aromatase in GP development,2025,PLoS One,Q9,mechanism,EuropePMC/NCBI 2026-07-31
+L39,39856629,rhGH + letrozole/GnRHa in adolescent boys,2025,endocrine,Q9,near_final,EuropePMC/NCBI 2026-07-31
+L40,41512838,NPR2 functional variants support CNP therapeutic rationale,2026,endocrine,Q10,mechanism,EuropePMC/NCBI 2026-07-31
+L41,35233476,LoF NPR-C (NPR3) extreme tall stature,2022,J Endocr Soc,Q10,mechanism,EuropePMC/NCBI 2026-07-31
+L42,42077444,shox/shox2 deficiency with fgfr3 GoF and natriuretic peptides,2026,Front Endocrinol,Q10,mechanism,EuropePMC/NCBI 2026-07-31
+L43,37629102,Disruption of nppcl in zebrafish,2023,Int J Mol Sci,Q10,bone_length,EuropePMC/NCBI 2026-07-31
+L44,42370681,Phase 3 Oral Infigratinib in Children with Achondroplasia,2026,N Engl J Med,Q11,velocity,EuropePMC/NCBI 2026-07-31
+L45,35342457,Infigratinib PROPEL and PROPEL 2,2022,Ther Adv Musculoskelet Dis,Q11,velocity,EuropePMC/NCBI 2026-07-31
+L46,40178985,TYRA-300 FGFR3-selective promotes bone growth (2 models),2025,JCI Insight,Q11,bone_length,EuropePMC/NCBI 2026-07-31
+L47,40581757,Infigratinib low dose for hypochondroplasia,2025,J Bone Miner Res,Q11,velocity,EuropePMC/NCBI 2026-07-31
+L48,31156776,Limb lengthening femur/tibia/humerus in achondroplasia,2019,Clin Orthop Surg,Q12,bone_length,EuropePMC/NCBI 2026-07-31
+L49,36125888,Technique of limb lengthening and physeal growth in achondroplasia,2023,J Pediatr Orthop B,Q12,bone_length,EuropePMC/NCBI 2026-07-31
+L50,9234980,Limb lengthening in Turner syndrome,1997,Iowa Orthop J,Q12,bone_length,EuropePMC/NCBI 2026-07-31
+L51,1590047,Early physeal closure after femoral chondrodiatasis; loss of length gain,1992,Acta Orthop Scand,Q13,bone_length,EuropePMC/NCBI 2026-07-31
+L52,10093811,Chondrodiatasis in SEMD (Ilizarov),1998,Int Orthop,Q13,bone_length,EuropePMC/NCBI 2026-07-31
+L53,24146685,Bone transport lengthening through physis in congenital pseudarthrosis tibia,2013,J Med Life,Q13,bone_length,EuropePMC/NCBI 2026-07-31
+L54,41289405,Growth hormone regulates the stem cell population in the growth plate,2025,PNAS,Q14,mechanism,EuropePMC/NCBI 2026-07-31
+L55,41984930,Transcriptional atlas of pubertal human growth plate: two stem cell populations,2026,Sci Transl Med,Q14,mechanism,EuropePMC/NCBI 2026-07-31
+L56,41253754,Gli1+ stromal cells are reparative precursors of chondroprogenitors,2025,Nat Commun,Q14,mechanism,EuropePMC/NCBI 2026-07-31
+L57,41342396,miR-433 targets BMP/IHH to coordinate postnatal GP dynamics,2026,J Bone Miner Res,Q14,mechanism,EuropePMC/NCBI 2026-07-31
+L58,40685060,Growth failure in aggrecan deficiency: decreased ECM/impaired GP,2025,Bone,Q15,mechanism,EuropePMC/NCBI 2026-07-31
+L59,41211650,GH treatment in family with ACAN-related short stature,2026,Clin Genet,Q15,velocity,EuropePMC/NCBI 2026-07-31
+L60,39502477,rhGH in aggrecan-deficient patients 3-year response,2024,J Endocr Soc,Q15,velocity,EuropePMC/NCBI 2026-07-31
+L61,34922359,rhGH in aggrecan-deficient patients 1-year response,2022,JCEM,Q15,velocity,EuropePMC/NCBI 2026-07-31
+L62,38232712,Pathogenic ACAN variants + 3-year GH response,2024,Horm Res Paediatr,Q15,velocity,EuropePMC/NCBI 2026-07-31

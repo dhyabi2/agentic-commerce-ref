@@ -1,0 +1,16 @@
+query_id,query_text,source,hitCount,date
+Q1,GH AND adult height AND ISS,EuropePMC,1003,2026-07-31
+Q2,aromatase inhibitor AND adult/final height AND boys/children,EuropePMC,201,2026-07-31
+Q3,vosoritide AND height/velocity,EuropePMC,176,2026-07-31
+Q4,CNP analog AND achondroplasia AND height,EuropePMC,59,2026-07-31
+Q5,GnRH agonist AND adult height AND precocious/short,EuropePMC,200,2026-07-31
+Q6,oxandrolone AND final height AND Turner,EuropePMC,109,2026-07-31
+Q7,IGF-1 AND adult height AND mecasermin/Laron,EuropePMC,83,2026-07-31
+Q8,growth plate AND final/bone length AND rodent/rabbit,EuropePMC,1451,2026-07-31
+Q9,epiphyseal fusion AND estrogen AND height,EuropePMC,208,2026-07-31
+Q10,NPR2/NPPC AND overgrowth/tall,EuropePMC,234,2026-07-31
+Q11,FGFR3 AND infigratinib/velocity AND achondroplasia,EuropePMC,211,2026-07-31
+Q12,limb lengthening/distraction AND final length,EuropePMC,57,2026-07-31
+Q13,physeal distraction AND chondrodiatasis/height,EuropePMC,13,2026-07-31
+Q14,resting zone AND chondrocyte AND stem/reserve,EuropePMC,541,2026-07-31
+Q15,aggrecan AND short stature AND bone age,EuropePMC,137,2026-07-31

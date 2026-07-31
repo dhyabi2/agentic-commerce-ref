@@ -1,0 +1,5 @@
+zone,height_genes_assigned,expected_null_mean,enrichment_ratio,z,perm_p_enriched
+Resting,6,3.73,1.61,1.35,0.1478
+Proliferative,1,4.04,0.25,-1.76,0.992
+Prehypertrophic,7,5.85,1.2,0.6,0.3617
+Hypertrophic,1,1.38,0.72,-0.33,0.756

@@ -51,6 +51,10 @@ CREATE OR REPLACE TABLE access_failures (
   source VARCHAR, reason VARCHAR, attempted_method VARCHAR, metadata_found VARCHAR,
   request_route VARCHAR, importance VARCHAR
 );
+CREATE OR REPLACE TABLE literature (
+  study_id VARCHAR, pmid VARCHAR, title VARCHAR, year VARCHAR, journal VARCHAR,
+  query_id VARCHAR, endpoint_type VARCHAR, source VARCHAR
+);
 CREATE OR REPLACE TABLE surrogate_calibration (
   intervention VARCHAR, population VARCHAR, design VARCHAR, n VARCHAR, surrogate_effect VARCHAR,
   adult_height_effect VARCHAR, surrogate_translated VARCHAR, direction VARCHAR, source_id VARCHAR, notes VARCHAR
@@ -90,7 +94,8 @@ def load_csv(table, fname):
 loaded = {t: load_csv(t, f) for t, f in [
     ("interventions","interventions.csv"), ("studies","studies.csv"), ("outcomes","outcomes.csv"),
     ("evidence_edges","evidence_edges.csv"), ("surrogate_calibration","surrogate_calibration.csv"),
-    ("access_failures","access_failures.csv"), ("evidence_snippets","evidence_snippets.csv")]}
+    ("access_failures","access_failures.csv"), ("evidence_snippets","evidence_snippets.csv"),
+    ("literature","literature.csv")]}
 
 # annotate gene flags from curated genetics table if present
 gp = CUR / "genetic_direction.csv"
