@@ -1,0 +1,11 @@
+,value
+[A]operational P(resting >= 25% of prehyp response),0.53455
+[A]operational P(resting >= 50% of prehyp response),0.307545
+[A]operational P(resting >= 80% of prehyp response),0.12185
+[A]operational P(resting response effectively silent <5% Emax),0.377555
+[A]operational median resting/prehyp response ratio,0.2790356639936349
+[A]operational P(gap erased | high reserve & high occupancy),0.5231291362633633
+[A]operational P(gap erased | low reserve OR low occupancy),0.05251707860556484
+[B]cAMP median cAMP-AUC resting/prehyp,0.1329016030379208
+[B]cAMP P(cAMP-AUC resting >= 50% prehyp),0.04974
+[B]cAMP P(cAMP-AUC resting >= 80% prehyp),0.01231
