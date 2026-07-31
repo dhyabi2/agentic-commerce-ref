@@ -1,0 +1,19 @@
+query	n_hits	note
+growth plate[All Fields]	1472	retrieved 200 uids
+physis[All Fields]	1472	retrieved 200 uids
+epiphyseal[All Fields]	131	retrieved 131 uids
+resting zone[All Fields]	52	retrieved 52 uids
+chondrocyte[All Fields]	8861	retrieved 200 uids
+"growth plate[All Fields] AND ""single cell""[All Fields]"	60	retrieved 60 uids
+"growth plate[All Fields] AND (scRNA-seq[All Fields] OR ""single cell RNA""[All Fields])"	38	retrieved 38 uids
+"physis[All Fields] AND ""single cell""[All Fields]"	60	retrieved 60 uids
+"epiphyseal[All Fields] AND ""single cell""[All Fields]"	6	retrieved 6 uids
+"resting zone[All Fields] AND ""single cell""[All Fields]"	4	retrieved 4 uids
+"chondrocyte[All Fields] AND ""single cell""[All Fields]"	866	retrieved 200 uids
+growth plate[All Fields] AND postnatal[All Fields]	341	retrieved 200 uids
+growth plate[All Fields] AND juvenile[All Fields]	6	retrieved 6 uids
+growth plate[All Fields] AND pubertal[All Fields]	9	retrieved 9 uids
+"growth plate[All Fields] AND (aging[All Fields] OR ageing[All Fields] OR ""age series""[All Fields])"	9	retrieved 9 uids
+"chondrocyte[All Fields] AND ""single cell""[All Fields] AND (postnatal[All Fields] OR juvenile[All Fields] OR pubertal[All Fields])"	675	retrieved 200 uids
+"growth plate[All Fields] AND ""single cell""[All Fields] AND Homo sapiens[Organism]"	18	retrieved 18 uids
+"growth plate[All Fields] AND ""single cell""[All Fields] AND Mus musculus[Organism]"	41	retrieved 41 uids
