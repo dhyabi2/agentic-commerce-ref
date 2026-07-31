@@ -1,56 +1,62 @@
-# Coverage report (NOT a verdict)
+# Coverage & saturation audit (measured — NOT a verdict)
 
-Reports what was searched and measured coverage. It does **not** answer "what is the best stack?" or
-"what should someone take?" — the corpus has no recommendation layer.
+Reports what was searched and measured coverage with **per-category saturation labels**. It does not
+answer "what is the best stack?" — the corpus has no recommendation layer.
 
-## Databases / APIs searched this session
-NCBI E-utilities (PubMed/PMC), Europe PMC REST, ClinicalTrials.gov, NCBI GEO / BioProject, HGNC
-(complete gene set), Crossref/DOI, OMIM (via literature), FDA/EMA (labels/press where reachable).
-Retrieval date **2026-07-31**. Full API/query logs are embedded in the four harvest-agent transcripts.
+Label key: **saturated** (3 rounds, no new qualifying item) · **not saturated** (real items remain) ·
+**externally blocked** (public data insufficient/withheld) · **structurally unknowable** (cannot be
+resolved from public data).
 
-## Query families
-- Interventions × {adult height, near-final height, growth velocity, predicted adult height, bone age,
-  final-height RCT} across endocrine, CNP/NPR2, FGFR3, PTH1R, IGF, mechanical, nutrient/botanical.
-- Human genetics: GIANT/height GWAS; monogenic stature allelic series (LoF/GoF/dup/del); estrogen/
-  fusion boundary; overgrowth syndromes.
-- Mechanical: PEMF/LIPUS/ESWT/loading/compression/distraction/vibration + exact waveform metadata.
-- Omics: named anchor accessions + GEO discovery for postnatal growth-plate/epiphyseal datasets.
+## Databases / APIs actually queried (2026-07-31)
+NCBI E-utilities (esearch/esummary/efetch/elink), Europe PMC REST, ChEMBL REST, NCBI GEO/BioProject,
+HGNC complete set, Crossref/DOI, OMIM (via literature). Query/round logs:
+`results/tables/SEARCH_QUERIES.csv`, `SCREENING_LOG.csv`, `CITATION_FRONTIER.csv`, `PRISMA_COUNTS.csv`.
 
-## Counts currently in the warehouse
-| entity | count |
-|---|---|
-| gene universe (HGNC approved) | 45,030 |
-| genes with recorded direction-of-effect | 21 |
-| interventions (curated, verified) | 14 |
-| studies (mechanical/nutrient/genetics) | 11 |
-| evidence edges | 48 |
-| surrogate→final-height calibration rows | 17 |
-| growth-plate omics datasets catalogued | 11 (incl. zonal LMD + 2026 human) |
-| access failures logged | 11 |
-| evidence cards generated | 49 |
+## Warehouse contents now
+| entity | count | note |
+|---|---:|---|
+| gene universe (HGNC approved) | 45,030 | genome-wide |
+| genes with direction-of-effect | 21 | verified PMIDs |
+| genome-wide zonal atlas rows | 98,788 | 24,697 genes × 4 states (GSE288529) |
+| interventions | 14 | verified |
+| literature studies (screened) | 62 incl / 15 excl | PRISMA 387→81→62 |
+| surrogate→final-height calibration | 17 | crown jewel |
+| compound–target activities | 275 fetched / 19 named | ChEMBL, 10 targets w/ data |
+| evidence edges | 48 | knowledge graph |
+| interaction pairs | 91 (14 non-trivial) | pathway convergence |
+| dual-evidence high-priority genes | 11 | ≥3 modes |
+| QA tests | 34 passing | endpoint/fusion/dedup/no-reco |
 
-## Human final-height coverage (the scarce, decisive layer)
-Interventions with **verified human attained-adult-height** evidence: GH (ISS PMID 15240584; GHD
-10102057), oxandrolone+GH (Turner 21493672), GnRH agonist (early-onset CPP PMC5752503; normal-puberty
-ISS 12621135), estrogen adjunct (Turner 21449786), mecasermin (SPIGFD 40626687, partial), levothyroxine
-(11580992). **Surrogate-did-not-translate** documented for aromatase inhibitors in ISS boys (31024444)
-and normal-puberty GnRHa. **Velocity-only / final-height UNKNOWN:** vosoritide, navepegritide,
-infigratinib, TYRA-300, long-acting GH.
+## Per-category saturation
 
-## Species/site/endpoint coverage
-Heavy mouse bias in omics (only human postnatal GP dataset = GSE288028, raw withheld). Mechanical
-final-length data exist essentially only in rat (LIPUS null; Hueter-Volkmann). No mechanical
-intervention shows a **final adult bone-length** increase in humans.
+| category | status | basis |
+|---|---|---|
+| Schema/QA integrity | **saturated** | 34 tests; migration hardened; all edges/studies source-linked |
+| Human final-height interventions (endocrine) | **not saturated** | 62 included incl. new AI/GH/GnRHa/oxandrolone/IGF-1 final-height trials; forward/backward rounds still yielding items |
+| Surrogate→final-height calibration | **not saturated** (rich) | 17 curated; velocity-only class (vosoritide/CNP/FGFR3i) growing |
+| Human height genetics (monogenic/allelic) | **not saturated** | 21 verified genes + GWAS anchors; full GWAS-sumstat fine-mapping not run |
+| GWAS common-variant fine-mapping / MR / LDSC-SEG | **externally blocked (compute/data)** | needs LD panels + full sumstats; enrichment done on curated set (perm p=0.023) |
+| Growth-plate omics (mouse) | **not saturated** | GSE288529 reprocessed genome-wide; 10+ more catalogued, not reprocessed from raw |
+| Growth-plate omics (human postnatal) | **externally blocked** | only GSE288028; human raw withheld (PII) |
+| Compound–target (ChEMBL) | **not saturated** | 10 targets w/ data ingested; PAPPA2/GHR/NPR2/IGF1 have no small-molecule bioactivity (structural) |
+| LINCS/CMap perturbational | **externally blocked (size)** | ~50 GB L1000; reproducible fetch script stubbed; not ingested |
+| Regulatory/patent/grey full-text | **not saturated / partially blocked** | abstracts captured; FDA/EMA PDFs not text-extractable this pass |
+| Spatial reaction-diffusion model | **saturated (model class)** | runs; mass-conservation + gradient-recovery tests pass |
+| Agent-based lineage model | **not built (partial)** | ODE twin + spatial RD cover dynamics; dedicated ABM deferred (backlog I1) |
+| Finite-element mechanical model | **externally blocked** | FEniCSx not installed; spatial RD + Hueter-Volkmann evidence serve as surrogate (backlog J1) |
+| Mechanical final-length (human) | **structurally unknowable (currently)** | no human mechanical final-length datum exists (LIPUS null; PEMF=thickness) |
 
-## Saturation (honestly: NOT reached)
-The spec's saturation criterion (3 discovery rounds with no new Tier-1/2 intervention, human
-final-height study, growth-plate dataset, or dual-evidence gene) was **not run to closure** in this
-session. One structured seed round + targeted recursive expansion was completed across four agents.
-Measured coverage is a *starting* corpus, not a saturated one. Unresolved regions are logged in
-`BLOCKED_DATA.md` and `LIMITATIONS.md`.
+## Cross-cutting measured signal (data, not advice)
+- **Surrogate unreliability:** aromatase inhibitors raise predicted height but not attained adult
+  height (PMID 31024444); GnRHa in normal-puberty ISS ≈ neutral; vosoritide/CNP/FGFR3i are
+  velocity-only with final height unknown. GH, oxandrolone+GH, GnRHa-in-early-CPP, mecasermin, and
+  levothyroxine translate.
+- **Height genes are growth-plate-expressed** more than random (perm p=0.023), split resting
+  (PAPPA2/IGF1/ESR1/NPR2) and prehypertrophic (FGFR3/IHH/ACAN); no single-zone enrichment reaches
+  significance in the verified set — the Yengo-2022 resting-zone-enrichment claim is **not** overstated.
+- **Systemic delivery flattens spatial information** and penetrates the resting zone poorly (spatial
+  RD median penetration 0.29) — consistent across PK/PD, growth-plate, and spatial models.
 
-## Unresolved blind spots
-LINCS/CMap perturbational layer (not ingested); genome-wide omics reprocessing from raw (only prior
-GSE288529 audit reused); ChEMBL/PubChem/BindingDB compound-affinity layer (not ingested); patents/
-theses/conference deep-mining (partial); restricted individual-level genetics (public summary only);
-formal fine-mapping / MR / cell-type LDSC-SEG on GWAS (not run — GWAS captured at anchor level).
+## Not exhaustive
+Saturation is **not** reached across most discovery categories (see labels). This is a substantially
+expanded, queryable corpus, not a complete one. Continuation in `docs/EXACT_CONTINUATION_PROMPT.md`.

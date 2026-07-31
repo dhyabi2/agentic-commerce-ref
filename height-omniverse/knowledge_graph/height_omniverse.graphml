@@ -302,7 +302,7 @@
     </edge>
     <edge source="SHOX" target="adult height" id="G1">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF/haploinsufficiency; developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 20301394</data>
@@ -310,7 +310,7 @@
     </edge>
     <edge source="ACAN" target="adult height" id="G2">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (het); growth-plate; postnatal cessation</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 27870580</data>
@@ -318,7 +318,7 @@
     </edge>
     <edge source="NPR2" target="adult height" id="G3">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (biallelic); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 15146390</data>
@@ -326,7 +326,7 @@
     </edge>
     <edge source="NPR2" target="adult height" id="G4">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">GoF; developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 22870295</data>
@@ -334,7 +334,7 @@
     </edge>
     <edge source="NPPC" target="adult height" id="G5">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">overexpression/dup; developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 17373680</data>
@@ -342,7 +342,7 @@
     </edge>
     <edge source="NPR3" target="adult height" id="G6">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (biallelic); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 40171685</data>
@@ -350,7 +350,7 @@
     </edge>
     <edge source="FGFR3" target="adult height" id="G7">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">GoF (G380R); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 7913883</data>
@@ -358,7 +358,7 @@
     </edge>
     <edge source="FGFR3" target="adult height" id="G8">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">GoF (N540K); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8589686</data>
@@ -366,7 +366,7 @@
     </edge>
     <edge source="FGFR3" target="adult height" id="G9">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (R621H); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 17033969</data>
@@ -374,7 +374,7 @@
     </edge>
     <edge source="IHH" target="adult height" id="G10">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter (digits)</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (missense); developmental (digit patterning)</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 20024692</data>
@@ -382,7 +382,7 @@
     </edge>
     <edge source="GHR" target="adult height" id="G11">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF; postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8488849</data>
@@ -390,7 +390,7 @@
     </edge>
     <edge source="STAT5B" target="adult height" id="G12">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF; postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 13679528</data>
@@ -398,7 +398,7 @@
     </edge>
     <edge source="IGF1" target="adult height" id="G13">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (deletion); prenatal+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8857020</data>
@@ -406,7 +406,7 @@
     </edge>
     <edge source="IGF1R" target="adult height" id="G14">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (het); prenatal+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 14657428</data>
@@ -414,7 +414,7 @@
     </edge>
     <edge source="IGFALS" target="adult height" id="G15">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter (mild)</data>
+      <data key="d2">-</data>
       <data key="d3">LoF; postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 21396577</data>
@@ -422,7 +422,7 @@
     </edge>
     <edge source="PAPPA2" target="adult height" id="G16">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF; postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 26902202</data>
@@ -430,7 +430,7 @@
     </edge>
     <edge source="STC2" target="adult height" id="G17">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">rare coding (inhibits PAPP-A); postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 28146470</data>
@@ -438,7 +438,7 @@
     </edge>
     <edge source="CYP19A1" target="adult height" id="G18">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (aromatase deficiency); postnatal (fusion boundary)</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8530621</data>
@@ -446,7 +446,7 @@
     </edge>
     <edge source="ESR1" target="adult height" id="G19">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (estrogen resistance); postnatal (fusion boundary)</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8090165</data>
@@ -454,7 +454,7 @@
     </edge>
     <edge source="DNMT3A" target="adult height" id="G20">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (germline het); developmental+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 27701732</data>
@@ -462,7 +462,7 @@
     </edge>
     <edge source="NSD1" target="adult height" id="G21">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF/haploinsufficiency; prenatal+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 12687502</data>
@@ -470,7 +470,7 @@
     </edge>
     <edge source="EZH2" target="adult height" id="G22">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (het); prenatal+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 24214728</data>
@@ -478,7 +478,7 @@
     </edge>
     <edge source="GPC3" target="adult height" id="G23">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">taller</data>
+      <data key="d2">+</data>
       <data key="d3">LoF (X-linked); prenatal+postnatal</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 8589713</data>
@@ -486,7 +486,7 @@
     </edge>
     <edge source="IGF2" target="adult height" id="G24">
       <data key="d1">altered-activity-changes</data>
-      <data key="d2">shorter</data>
+      <data key="d2">-</data>
       <data key="d3">LoF (paternal); prenatal (imprinted)</data>
       <data key="d4">T5</data>
       <data key="d5">PMID 26154720</data>

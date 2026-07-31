@@ -55,6 +55,10 @@ CREATE OR REPLACE TABLE literature (
   study_id VARCHAR, pmid VARCHAR, title VARCHAR, year VARCHAR, journal VARCHAR,
   query_id VARCHAR, endpoint_type VARCHAR, source VARCHAR
 );
+CREATE OR REPLACE TABLE compound_target (
+  target_gene VARCHAR, molecule_chembl_id VARCHAR, pref_name VARCHAR, max_phase VARCHAR,
+  standard_type VARCHAR, standard_value_nM VARCHAR, source VARCHAR
+);
 CREATE OR REPLACE TABLE surrogate_calibration (
   intervention VARCHAR, population VARCHAR, design VARCHAR, n VARCHAR, surrogate_effect VARCHAR,
   adult_height_effect VARCHAR, surrogate_translated VARCHAR, direction VARCHAR, source_id VARCHAR, notes VARCHAR
@@ -95,7 +99,7 @@ loaded = {t: load_csv(t, f) for t, f in [
     ("interventions","interventions.csv"), ("studies","studies.csv"), ("outcomes","outcomes.csv"),
     ("evidence_edges","evidence_edges.csv"), ("surrogate_calibration","surrogate_calibration.csv"),
     ("access_failures","access_failures.csv"), ("evidence_snippets","evidence_snippets.csv"),
-    ("literature","literature.csv")]}
+    ("literature","literature.csv"), ("compound_target","compound_target.csv")]}
 
 # annotate gene flags from curated genetics table if present
 gp = CUR / "genetic_direction.csv"
@@ -106,10 +110,10 @@ if gp.exists():
                     [r.get("key_phenotype",""), r.get("height_direction",""), r.get("source_id",""), r.get("gene","")])
 
 # ---------------- apply migration_002 (additive schema hardening) ----------------
-mig = ROOT / "database" / "schemas" / "migration_002.sql"
-if mig.exists():
-    con.execute(mig.read_text())
-    print("applied migration_002 (provenance/design/endpoint/integrity fields + views)")
+for mfn in ["migration_002.sql", "migration_003_views.sql"]:
+    mig = ROOT / "database" / "schemas" / mfn
+    if mig.exists():
+        con.execute(mig.read_text()); print(f"applied {mfn}")
 
 n_genes = con.execute("SELECT count(*) FROM genes").fetchone()[0]
 print(f"genes (Approved): {n_genes}")

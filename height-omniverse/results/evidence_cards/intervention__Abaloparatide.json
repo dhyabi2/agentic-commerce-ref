@@ -22,7 +22,8 @@
       "evidence_tier": "T6",
       "directness": "low",
       "confidence": "moderate",
-      "conflicting_edges": ""
+      "conflicting_edges": "",
+      "has_contradiction": false
     },
     {
       "edge_id": "E17",
@@ -36,7 +37,8 @@
       "evidence_tier": "T8",
       "directness": "none",
       "confidence": "low",
-      "conflicting_edges": ""
+      "conflicting_edges": "",
+      "has_contradiction": false
     }
   ],
   "source_provenance": "companion analysis; PMID 26562265"

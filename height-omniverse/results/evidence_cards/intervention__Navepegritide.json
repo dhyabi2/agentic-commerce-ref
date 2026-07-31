@@ -35,7 +35,8 @@
       "evidence_tier": "T3",
       "directness": "high",
       "confidence": "moderate",
-      "conflicting_edges": ""
+      "conflicting_edges": "",
+      "has_contradiction": false
     }
   ],
   "source_provenance": "PMID 41247754"

@@ -59,7 +59,8 @@
       "evidence_tier": "T1",
       "directness": "med",
       "confidence": "moderate",
-      "conflicting_edges": "E6"
+      "conflicting_edges": "E6",
+      "has_contradiction": true
     },
     {
       "edge_id": "E6",
@@ -73,7 +74,8 @@
       "evidence_tier": "T1",
       "directness": "high",
       "confidence": "moderate",
-      "conflicting_edges": "E5"
+      "conflicting_edges": "E5",
+      "has_contradiction": true
     }
   ],
   "source_provenance": "PMID 12621135; PMC5752503"

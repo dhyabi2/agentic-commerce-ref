@@ -35,7 +35,8 @@
       "evidence_tier": "T3",
       "directness": "high",
       "confidence": "high",
-      "conflicting_edges": "E9"
+      "conflicting_edges": "E9",
+      "has_contradiction": true
     },
     {
       "edge_id": "E9",
@@ -49,7 +50,8 @@
       "evidence_tier": "T8",
       "directness": "low",
       "confidence": "low",
-      "conflicting_edges": "E8"
+      "conflicting_edges": "E8",
+      "has_contradiction": true
     }
   ],
   "source_provenance": "PMID 32891212"
