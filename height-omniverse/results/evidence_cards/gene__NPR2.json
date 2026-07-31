@@ -3,8 +3,42 @@
   "symbol": "NPR2",
   "name": "natriuretic peptide receptor 2",
   "ensembl": "ENSG00000159899",
-  "monogenic_stature_evidence": "skeletal overgrowth/tall",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "skeletal overgrowth/tall",
+  "zonal_topology": {
+    "top_zone": "Resting",
+    "specificity": 0.52,
+    "gp_expression": 0.51
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "41967490",
+      "title": "Phase II basket trial vosoritide in RASopathies/ACAN/NPR2 deficiency",
+      "year": "2026"
+    },
+    {
+      "pmid": "41512838",
+      "title": "NPR2 functional variants support CNP therapeutic rationale",
+      "year": "2026"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "NPR2",
+    "height_direction": "shorter",
+    "pathway": "CNP->NPR2/cGMP",
+    "gp_expression": 0.51,
+    "top_zone": "Resting",
+    "zone_specificity": 0.52,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 1,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 3,
+    "high_priority_research": true,
+    "source": "PMID 15146390"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 15146390; PMID 22870295"
 }

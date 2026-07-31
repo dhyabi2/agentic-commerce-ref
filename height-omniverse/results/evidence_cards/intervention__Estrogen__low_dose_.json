@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Estrogen (low-dose)",
-  "aliases": "ethinylestradiol; estradiol",
   "modality": "steroid hormone",
   "target": "estrogen receptor",
   "action": "agonist (growth-plate + GH/IGF axis)",
@@ -39,5 +38,29 @@
       "has_contradiction": false
     }
   ],
+  "interactions": [
+    {
+      "intervention_a": "Aromatase inhibitor",
+      "intervention_b": "Estrogen (low-dose)",
+      "relation": "same-target/pathway-redundant"
+    },
+    {
+      "intervention_a": "Estrogen (low-dose)",
+      "intervention_b": "GnRH agonist",
+      "relation": "shared-downstream (GnRHa lowers sex steroids -> delays fusion)"
+    },
+    {
+      "intervention_a": "Estrogen (low-dose)",
+      "intervention_b": "Long-acting GH",
+      "relation": "shared-downstream (estrogen modulates GH/IGF + fusion)"
+    },
+    {
+      "intervention_a": "Estrogen (low-dose)",
+      "intervention_b": "Mecasermin (rhIGF-1)",
+      "relation": "shared-downstream (estrogen modulates GH/IGF + fusion)"
+    }
+  ],
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMID 21449786"
 }

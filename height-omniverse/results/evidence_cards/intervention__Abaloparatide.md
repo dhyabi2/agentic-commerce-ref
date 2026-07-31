@@ -1,15 +1,15 @@
-# Abaloparatide  (intervention evidence card)
+# Abaloparatide — intervention evidence card
 
-- **Modality:** peptide (PTHrP analogue)
-- **Target:** PTH1R
-- **Action:** agonist (RG-biased, transient cAMP)
-- **Approval:** approved (osteoporosis)
-- **Route:** SC daily
-- **PK:** Tmax 0.51 h; t1/2 ~1 h
+- **Modality:** peptide (PTHrP analogue)  
+- **Target/action:** PTH1R / agonist (RG-biased, transient cAMP)  
+- **Approval:** approved (osteoporosis)  · **Route:** SC daily  · **PK:** Tmax 0.51 h; t1/2 ~1 h
 
-## Surrogate vs final height
-- (no surrogate/final-height row recorded)
+## Surrogate vs ATTAINED final height
+- no qualifying evidence located after 1 completed search round(s)
 
-_Source provenance: companion analysis; PMID 26562265_
+## Interactions (pathway convergence; blank=untested, NOT safe/additive)
+- Abaloparatide × Vosoritide: distinct (both delay hypertrophy, different receptors)
 
-> No recommendation field by design (research warehouse).
+_Provenance: companion analysis; PMID 26562265_
+
+> No recommendation field by design.

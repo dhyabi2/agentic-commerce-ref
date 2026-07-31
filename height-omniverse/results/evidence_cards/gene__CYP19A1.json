@@ -3,8 +3,39 @@
   "symbol": "CYP19A1",
   "name": "cytochrome P450 family 19 subfamily A member 1",
   "ensembl": "ENSG00000137869",
-  "monogenic_stature_evidence": "tall, UNFUSED epiphyses, continued growth",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "tall, UNFUSED epiphyses, continued growth",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.39,
+    "gp_expression": 0.0
+  },
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL468419",
+      "pref_name": "FADROZOLE HYDROCHLORIDE",
+      "max_phase": "-1",
+      "standard_type": "IC50",
+      "standard_value_nM": "0.03"
+    }
+  ],
+  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "dual_evidence": {
+    "gene": "CYP19A1",
+    "height_direction": "taller",
+    "pathway": "estrogen biosynthesis (systemic)",
+    "gp_expression": 0.0,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.39,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 0,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 1,
+    "n_evidence_modes": 2,
+    "high_priority_research": false,
+    "source": "PMID 8530621"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8530621"
 }

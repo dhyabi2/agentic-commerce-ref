@@ -3,8 +3,37 @@
   "symbol": "IGF1",
   "name": "insulin like growth factor 1",
   "ensembl": "ENSG00000017427",
-  "monogenic_stature_evidence": "IUGR + postnatal failure, deafness",
-  "direction_of_effect": "shorter",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "shorter",
+  "monogenic_phenotype": "IUGR + postnatal failure, deafness",
+  "zonal_topology": {
+    "top_zone": "Resting",
+    "specificity": 0.46,
+    "gp_expression": 0.58
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "33434161",
+      "title": "rhIGF1 with/without Laron effectiveness",
+      "year": "2021"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "IGF1",
+    "height_direction": "shorter",
+    "pathway": "IGF-1 ligand (systemic)",
+    "gp_expression": 0.58,
+    "top_zone": "Resting",
+    "zone_specificity": 0.46,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 1,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 3,
+    "high_priority_research": true,
+    "source": "PMID 8857020"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8857020"
 }

@@ -1,15 +1,15 @@
-# Recombinant GH (somatropin)  (intervention evidence card)
+# Recombinant GH (somatropin) — intervention evidence card
 
-- **Modality:** hormone (recombinant protein)
-- **Target:** GH receptor
-- **Action:** agonist (JAK/STAT->IGF-1)
-- **Approval:** approved (ISS/GHD/Turner)
-- **Route:** SC daily
-- **PK:** short t1/2 (hrs; NOT RETRIEVED)
+- **Modality:** hormone (recombinant protein)  
+- **Target/action:** GH receptor / agonist (JAK/STAT->IGF-1)  
+- **Approval:** approved (ISS/GHD/Turner)  · **Route:** SC daily  · **PK:** short t1/2 (hrs; NOT RETRIEVED)
 
-## Surrogate vs final height
-- (no surrogate/final-height row recorded)
+## Surrogate vs ATTAINED final height
+- no qualifying evidence located after 1 completed search round(s)
 
-_Source provenance: PMID 15240584; 10102057_
+## Interactions (pathway convergence; blank=untested, NOT safe/additive)
+- no qualifying evidence located after 1 completed search round(s)
 
-> No recommendation field by design (research warehouse).
+_Provenance: PMID 15240584; 10102057_
+
+> No recommendation field by design.

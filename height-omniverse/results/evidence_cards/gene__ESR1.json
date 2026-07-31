@@ -3,8 +3,60 @@
   "symbol": "ESR1",
   "name": "estrogen receptor 1",
   "ensembl": "ENSG00000091831",
-  "monogenic_stature_evidence": "tall (204 cm), unfused epiphyses",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "tall (204 cm), unfused epiphyses",
+  "zonal_topology": {
+    "top_zone": "Resting",
+    "specificity": 0.46,
+    "gp_expression": 0.8
+  },
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL135",
+      "pref_name": "ESTRADIOL",
+      "max_phase": "4",
+      "standard_type": "EC50",
+      "standard_value_nM": "0.007"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL81",
+      "pref_name": "RALOXIFENE",
+      "max_phase": "4",
+      "standard_type": "Ki",
+      "standard_value_nM": "0.22"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL1358",
+      "pref_name": "FULVESTRANT",
+      "max_phase": "4",
+      "standard_type": "IC50",
+      "standard_value_nM": "0.47"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL1405",
+      "pref_name": "ESTRONE",
+      "max_phase": "4",
+      "standard_type": "EC50",
+      "standard_value_nM": "0.7"
+    }
+  ],
+  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "dual_evidence": {
+    "gene": "ESR1",
+    "height_direction": "taller",
+    "pathway": "ERalpha in growth plate",
+    "gp_expression": 0.8,
+    "top_zone": "Resting",
+    "zone_specificity": 0.46,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 1,
+    "mode_has_compound": 1,
+    "n_evidence_modes": 4,
+    "high_priority_research": true,
+    "source": "PMID 8090165"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8090165"
 }

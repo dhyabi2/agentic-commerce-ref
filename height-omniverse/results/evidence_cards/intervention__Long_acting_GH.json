@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Long-acting GH",
-  "aliases": "lonapegsomatropin; somatrogon; somapacitan",
   "modality": "hormone (modified GH)",
   "target": "GH receptor",
   "action": "agonist",
@@ -22,6 +21,30 @@
       "notes": "approved; final-height not yet published"
     }
   ],
-  "evidence_edges": [],
+  "evidence_edges": "no qualifying evidence located after 1 completed search round(s)",
+  "interactions": [
+    {
+      "intervention_a": "Aromatase inhibitor",
+      "intervention_b": "Long-acting GH",
+      "relation": "shared-downstream (estrogen modulates GH/IGF + fusion)"
+    },
+    {
+      "intervention_a": "Estrogen (low-dose)",
+      "intervention_b": "Long-acting GH",
+      "relation": "shared-downstream (estrogen modulates GH/IGF + fusion)"
+    },
+    {
+      "intervention_a": "Long-acting GH",
+      "intervention_b": "Mecasermin (rhIGF-1)",
+      "relation": "same-target/pathway-redundant"
+    },
+    {
+      "intervention_a": "Long-acting GH",
+      "intervention_b": "Nutrition/energy supplementation",
+      "relation": "same-axis (IGF availability)"
+    }
+  ],
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMC11480202"
 }

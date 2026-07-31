@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Vosoritide",
-  "aliases": "BMN-111",
   "modality": "peptide (CNP analogue)",
   "target": "NPR-B (NPR2)",
   "action": "agonist (inhibits FGFR3/MAPK)",
@@ -54,5 +53,24 @@
       "has_contradiction": true
     }
   ],
+  "interactions": [
+    {
+      "intervention_a": "Abaloparatide",
+      "intervention_b": "Vosoritide",
+      "relation": "distinct (both delay hypertrophy, different receptors)"
+    },
+    {
+      "intervention_a": "Infigratinib",
+      "intervention_b": "Vosoritide",
+      "relation": "shared-downstream (MAPK braking; CNP inhibits FGFR3/MAPK)"
+    },
+    {
+      "intervention_a": "TYRA-300",
+      "intervention_b": "Vosoritide",
+      "relation": "shared-downstream (MAPK braking; CNP inhibits FGFR3/MAPK)"
+    }
+  ],
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMID 32891212"
 }

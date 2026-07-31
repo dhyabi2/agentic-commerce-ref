@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Nutrition/energy supplementation",
-  "aliases": "",
   "modality": "nutrient/public-health",
   "target": "systemic anabolic/IGF-1 substrate",
   "action": "substrate",
@@ -39,5 +38,19 @@
       "has_contradiction": false
     }
   ],
+  "interactions": [
+    {
+      "intervention_a": "Long-acting GH",
+      "intervention_b": "Nutrition/energy supplementation",
+      "relation": "same-axis (IGF availability)"
+    },
+    {
+      "intervention_a": "Mecasermin (rhIGF-1)",
+      "intervention_b": "Nutrition/energy supplementation",
+      "relation": "same-axis (IGF availability)"
+    }
+  ],
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMC7360439"
 }

@@ -3,8 +3,47 @@
   "symbol": "ACAN",
   "name": "aggrecan",
   "ensembl": "ENSG00000157766",
-  "monogenic_stature_evidence": "short + ADVANCED bone age, early OA",
-  "direction_of_effect": "shorter",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "shorter",
+  "monogenic_phenotype": "short + ADVANCED bone age, early OA",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.3,
+    "gp_expression": 13.53
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "41967490",
+      "title": "Phase II basket trial vosoritide in RASopathies/ACAN/NPR2 deficiency",
+      "year": "2026"
+    },
+    {
+      "pmid": "41211650",
+      "title": "GH treatment in family with ACAN-related short stature",
+      "year": "2026"
+    },
+    {
+      "pmid": "38232712",
+      "title": "Pathogenic ACAN variants + 3-year GH response",
+      "year": "2024"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "ACAN",
+    "height_direction": "shorter",
+    "pathway": "aggrecan matrix",
+    "gp_expression": 13.53,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.3,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 2,
+    "high_priority_research": false,
+    "source": "PMID 27870580"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 27870580"
 }

@@ -3,8 +3,31 @@
   "symbol": "STC2",
   "name": "stanniocalcin 2",
   "ensembl": "ENSG00000113739",
-  "monogenic_stature_evidence": "height-increasing coding variant",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "height-increasing coding variant",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.58,
+    "gp_expression": 0.77
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "dual_evidence": {
+    "gene": "STC2",
+    "height_direction": "taller",
+    "pathway": "stanniocalcin-2 inhibits PAPP-A",
+    "gp_expression": 0.77,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.58,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 1,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 3,
+    "high_priority_research": true,
+    "source": "PMID 28146470"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 28146470"
 }

@@ -3,8 +3,83 @@
   "symbol": "FGFR3",
   "name": "fibroblast growth factor receptor 3",
   "ensembl": "ENSG00000068078",
-  "monogenic_stature_evidence": "CATSHL: tall stature",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "CATSHL: tall stature",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.39,
+    "gp_expression": 2.91
+  },
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL1834657",
+      "pref_name": "INFIGRATINIB PHOSPHATE",
+      "max_phase": "4",
+      "standard_type": "IC50",
+      "standard_value_nM": "0.7"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL522892",
+      "pref_name": "DOVITINIB",
+      "max_phase": "3",
+      "standard_type": "IC50",
+      "standard_value_nM": "3.0"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL495727",
+      "pref_name": "AT-9283",
+      "max_phase": "2",
+      "standard_type": "IC50",
+      "standard_value_nM": "10.0"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL491473",
+      "pref_name": "CEDIRANIB",
+      "max_phase": "3",
+      "standard_type": "Ki",
+      "standard_value_nM": "12.59"
+    },
+    {
+      "molecule_chembl_id": "CHEMBL189584",
+      "pref_name": "PD-173074",
+      "max_phase": "",
+      "standard_type": "EC50",
+      "standard_value_nM": "30.0"
+    }
+  ],
+  "literature_mentions": [
+    {
+      "pmid": "41748604",
+      "title": "Excess FGFR3 disrupts resting-zone chondrocyte turnover via CREB",
+      "year": "2026"
+    },
+    {
+      "pmid": "42077444",
+      "title": "shox/shox2 deficiency with fgfr3 GoF and natriuretic peptides",
+      "year": "2026"
+    },
+    {
+      "pmid": "40178985",
+      "title": "TYRA-300 FGFR3-selective promotes bone growth (2 models)",
+      "year": "2025"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "FGFR3",
+    "height_direction": "shorter",
+    "pathway": "FGFR3 inhibits proliferation",
+    "gp_expression": 2.91,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.39,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 1,
+    "n_evidence_modes": 3,
+    "high_priority_research": true,
+    "source": "PMID 7913883"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 7913883; PMID 8589686; PMID 17033969"
 }

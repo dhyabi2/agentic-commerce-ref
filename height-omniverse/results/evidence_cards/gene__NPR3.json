@@ -3,8 +3,37 @@
   "symbol": "NPR3",
   "name": "natriuretic peptide receptor 3",
   "ensembl": "ENSG00000113389",
-  "monogenic_stature_evidence": "tall + scoliosis",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "tall + scoliosis",
+  "zonal_topology": {
+    "top_zone": "Hypertrophic",
+    "specificity": 0.51,
+    "gp_expression": 0.01
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "35233476",
+      "title": "LoF NPR-C (NPR3) extreme tall stature",
+      "year": "2022"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "NPR3",
+    "height_direction": "taller",
+    "pathway": "loss of CNP clearance receptor",
+    "gp_expression": 0.01,
+    "top_zone": "Hypertrophic",
+    "zone_specificity": 0.51,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 0,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 1,
+    "high_priority_research": false,
+    "source": "PMID 40171685"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 40171685"
 }

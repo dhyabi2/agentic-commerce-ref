@@ -3,8 +3,31 @@
   "symbol": "NSD1",
   "name": "nuclear receptor binding SET domain protein 1",
   "ensembl": "ENSG00000165671",
-  "monogenic_stature_evidence": "Sotos overgrowth",
-  "direction_of_effect": "taller",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "taller",
+  "monogenic_phenotype": "Sotos overgrowth",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.31,
+    "gp_expression": 1.63
+  },
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "dual_evidence": {
+    "gene": "NSD1",
+    "height_direction": "taller",
+    "pathway": "histone methyltransferase",
+    "gp_expression": 1.63,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.31,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 2,
+    "high_priority_research": false,
+    "source": "PMID 12687502"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 12687502"
 }

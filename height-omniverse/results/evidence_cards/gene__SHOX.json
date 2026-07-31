@@ -3,8 +3,33 @@
   "symbol": "SHOX",
   "name": "SHOX homeobox",
   "ensembl": "ENSG00000185960",
-  "monogenic_stature_evidence": "Leri-Weill dyschondrosteosis / ISS; mesomelic",
-  "direction_of_effect": "shorter",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "shorter",
+  "monogenic_phenotype": "Leri-Weill dyschondrosteosis / ISS; mesomelic",
+  "zonal_topology": "no qualifying evidence located after 1 completed search round(s) (or absent in mouse atlas)",
+  "compounds": "no qualifying evidence located after 1 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "42077444",
+      "title": "shox/shox2 deficiency with fgfr3 GoF and natriuretic peptides",
+      "year": "2026"
+    }
+  ],
+  "dual_evidence": {
+    "gene": "SHOX",
+    "height_direction": "shorter",
+    "pathway": "growth-plate homeobox TF",
+    "gp_expression": 0.0,
+    "top_zone": "NA(absent in mouse)",
+    "zone_specificity": 0.0,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 0,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 0,
+    "n_evidence_modes": 1,
+    "high_priority_research": false,
+    "source": "PMID 20301394"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 20301394"
 }

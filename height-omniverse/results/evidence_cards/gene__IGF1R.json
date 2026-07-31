@@ -3,8 +3,39 @@
   "symbol": "IGF1R",
   "name": "insulin like growth factor 1 receptor",
   "ensembl": "ENSG00000140443",
-  "monogenic_stature_evidence": "SGA/IUGR, postnatal short",
-  "direction_of_effect": "shorter",
-  "growthplate_zone_evidence": "",
+  "genetics_direction": "shorter",
+  "monogenic_phenotype": "SGA/IUGR, postnatal short",
+  "zonal_topology": {
+    "top_zone": "Prehypertrophic",
+    "specificity": 0.33,
+    "gp_expression": 3.52
+  },
+  "compounds": [
+    {
+      "molecule_chembl_id": "CHEMBL476259",
+      "pref_name": "GSK-1326255A",
+      "max_phase": "",
+      "standard_type": "IC50",
+      "standard_value_nM": "0.3"
+    }
+  ],
+  "literature_mentions": "no qualifying evidence located after 1 completed search round(s)",
+  "dual_evidence": {
+    "gene": "IGF1R",
+    "height_direction": "shorter",
+    "pathway": "IGF-1 receptor (systemic)",
+    "gp_expression": 3.52,
+    "top_zone": "Prehypertrophic",
+    "zone_specificity": 0.33,
+    "mode_genetics": 1,
+    "mode_gp_expressed": 1,
+    "mode_zone_specific": 0,
+    "mode_has_compound": 1,
+    "n_evidence_modes": 3,
+    "high_priority_research": true,
+    "source": "PMID 14657428"
+  },
+  "contradictions": "see evidence_edges conflicting_edges",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 14657428"
 }

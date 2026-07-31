@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Oxandrolone",
-  "aliases": "",
   "modality": "small molecule (anabolic androgen)",
   "target": "androgen receptor",
   "action": "agonist",
@@ -39,5 +38,8 @@
       "has_contradiction": false
     }
   ],
+  "interactions": "no qualifying evidence located after 1 completed search round(s)",
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMID 21493672"
 }

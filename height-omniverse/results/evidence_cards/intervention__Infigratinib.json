@@ -1,7 +1,6 @@
 {
   "type": "intervention",
   "name": "Infigratinib",
-  "aliases": "BGJ398; Truseltiq",
   "modality": "small-molecule TKI",
   "target": "FGFR1-3",
   "action": "inhibitor",
@@ -39,5 +38,19 @@
       "has_contradiction": false
     }
   ],
+  "interactions": [
+    {
+      "intervention_a": "Infigratinib",
+      "intervention_b": "TYRA-300",
+      "relation": "same-target/pathway-redundant"
+    },
+    {
+      "intervention_a": "Infigratinib",
+      "intervention_b": "Vosoritide",
+      "relation": "shared-downstream (MAPK braking; CNP inhibits FGFR3/MAPK)"
+    }
+  ],
+  "safety_note": "efficacy/safety stored separately; see EVIDENCE_LEDGER (companion)",
+  "recommendation": "NONE BY DESIGN",
   "source_provenance": "PMID 42370681"
 }
