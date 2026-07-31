@@ -65,3 +65,22 @@ authors, an age effect could not be separated from a pipeline-version effect in 
 
 GSE288529 is a single animal at a single age (4 weeks), so it contributes no age contrast
 either.
+
+## Supplementary rat dataset (analysis E)
+
+| Accession | Organism | File | Bytes | What it is |
+|---|---|---|---|---|
+| GSE16981 | Rattus norvegicus | `GSE16981_series_matrix.txt.gz` | 2,481,399 | Proximal tibial growth plate, zones separated by manual microdissection, Affymetrix Rat 230 2.0 (GPL1355), MAS5 signal, 35 arrays, n=5 per group, ages 1/3/6/9/12 weeks. Lui, Andrade, Hegde, Chen, Baron, Nilsson. PMIDs 20096814, 20974641. |
+| GPL1355 | — | `GPL1355.annot.gz` | 5,714,896 | Platform annotation used for probe -> gene symbol mapping. |
+
+Per-sample characteristics recorded in this series (unlike GSE288028): `age`, `castrated`,
+`growth plate zone`. Animals older than 1 week were castrated at day 18.
+
+### sha256 (all raw inputs)
+
+```
+3d252c3cd3923651762a31e04479a4ffdbfad4b031c1cb093459c558e7c68c2c  GSE288028_RAW.tar
+91aeed9ef961fc505082489c31b0c54844b70892aa6b95c68b724924c36d4439  GSE288529_RAW.tar
+959b0339252170160d81d1e4a218c706910d0deef9caf0ef583e57291c316d08  GPL1355.annot.gz
+66b8299d510b3fd550793940702d51738ece17b747e7fbeb1f82f5d3e6602eb6  GSE16981_series_matrix.txt.gz
+```

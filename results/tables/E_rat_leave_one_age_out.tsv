@@ -1,0 +1,21 @@
+zone	score	age_left_out_weeks	n_arrays	slope_per_week	p_value	r_squared
+proliferative and early hypertrophic zone	target_primary_zmean	none (full)	20	0.04535286744673159	0.0005846993948416047	0.4904930149680682
+proliferative and early hypertrophic zone	target_primary_zmean	3	15	0.045138153933756205	0.03163503908097056	0.3083731845884015
+proliferative and early hypertrophic zone	target_primary_zmean	6	15	0.04904252198887613	0.0009796452889536086	0.5794083316756727
+proliferative and early hypertrophic zone	target_primary_zmean	9	15	0.05264015645403124	5.4625141541663074e-05	0.7263556872766002
+proliferative and early hypertrophic zone	target_primary_zmean	12	15	0.01995471267767043	0.24505362962798916	0.10235263355972576
+proliferative and early hypertrophic zone	target_secondary_zmean	none (full)	20	0.029753286587335757	0.01196745036598455	0.3026314511058983
+proliferative and early hypertrophic zone	target_secondary_zmean	3	15	0.02913992289499742	0.14205849236631846	0.15819402120165835
+proliferative and early hypertrophic zone	target_secondary_zmean	6	15	0.03366348505880777	0.010444715648152402	0.40742108700455304
+proliferative and early hypertrophic zone	target_secondary_zmean	9	15	0.037310813376420504	0.0004842372092492923	0.6209806460588065
+proliferative and early hypertrophic zone	target_secondary_zmean	12	15	0.0036086246717082996	0.8267554861428369	0.003821716206781099
+proliferative and early hypertrophic zone	target_housekeeping_zmean	none (full)	20	-0.013193507722159893	0.41349595193032396	0.03747372581675133
+proliferative and early hypertrophic zone	target_housekeeping_zmean	3	15	-0.05218712632236002	0.0521358972657525	0.2600489583635133
+proliferative and early hypertrophic zone	target_housekeeping_zmean	6	15	-0.0038021856657608345	0.8055507223481507	0.004832316353765941
+proliferative and early hypertrophic zone	target_housekeeping_zmean	9	15	-0.01112241443801897	0.5570708874391784	0.027183303150534965
+proliferative and early hypertrophic zone	target_housekeeping_zmean	12	15	-0.0009455249165530545	0.9643120985215429	0.00016001497036997365
+proliferative and early hypertrophic zone	target_primary_ulm	none (full)	20	0.037426633116801555	0.007267314935168151	0.3371355931800937
+proliferative and early hypertrophic zone	target_primary_ulm	3	15	0.06343837857819164	0.004977627323750418	0.4669789770012546
+proliferative and early hypertrophic zone	target_primary_ulm	6	15	0.03509920541266843	0.02747327627599139	0.32162645102897297
+proliferative and early hypertrophic zone	target_primary_ulm	9	15	0.04391966862055962	0.0015832430177513902	0.5486944214018296
+proliferative and early hypertrophic zone	target_primary_ulm	12	15	0.001695136122953341	0.9195087318537537	0.0008159437121437916

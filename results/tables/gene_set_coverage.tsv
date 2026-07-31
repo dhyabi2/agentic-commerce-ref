@@ -1,0 +1,10 @@
+dataset_species	gene_set	n_requested	n_found	found	missing	dataset_tag
+human	primary	5	5	IBSP,SPP1,VEGFA,PANX3,SP7		human_GSE288028
+human	secondary	8	8	COL10A1,MMP13,IBSP,SPP1,VEGFA,ALPL,PANX3,SP7		human_GSE288028
+human	housekeeping	12	12	ACTB,GAPDH,TBP,RPL13A,PPIA,SDHA,B2M,HPRT1,PGK1,YWHAZ,RPLP0,UBC		human_GSE288028
+mouse	primary	5	5	Ibsp,Spp1,Vegfa,Panx3,Sp7		mouse_GSE288028
+mouse	secondary	8	8	Col10a1,Mmp13,Ibsp,Spp1,Vegfa,Alpl,Panx3,Sp7		mouse_GSE288028
+mouse	housekeeping	12	12	Actb,Gapdh,Tbp,Rpl13a,Ppia,Sdha,B2m,Hprt,Pgk1,Ywhaz,Rplp0,Ubc		mouse_GSE288028
+mouse	primary	5	5	Ibsp,Spp1,Vegfa,Panx3,Sp7		mouse_GSE288529
+mouse	secondary	8	8	Col10a1,Mmp13,Ibsp,Spp1,Vegfa,Alpl,Panx3,Sp7		mouse_GSE288529
+mouse	housekeeping	12	12	Actb,Gapdh,Tbp,Rpl13a,Ppia,Sdha,B2m,Hprt,Pgk1,Ywhaz,Rplp0,Ubc		mouse_GSE288529

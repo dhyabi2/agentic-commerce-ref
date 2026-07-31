@@ -1,0 +1,61 @@
+gene_set	method	min_cell_filter_applied	donor_left_out	mean_rho	n_samples	n_donors_contributing
+primary	scanpy	True	none (full)	0.43999999999999995	5	1
+primary	scanpy	True	D1_P30453	0.43999999999999995	5	1
+primary	scanpy	True	D2_P31011	0.43999999999999995	5	1
+primary	scanpy	True	D3_P25452		0	0
+primary	scanpy	True	D4_P22202	0.43999999999999995	5	1
+primary	ulm	True	none (full)	0.5799999999999998	5	1
+primary	ulm	True	D1_P30453	0.5799999999999998	5	1
+primary	ulm	True	D2_P31011	0.5799999999999998	5	1
+primary	ulm	True	D3_P25452		0	0
+primary	ulm	True	D4_P22202	0.5799999999999998	5	1
+secondary	scanpy	True	none (full)	0.4	5	1
+secondary	scanpy	True	D1_P30453	0.4	5	1
+secondary	scanpy	True	D2_P31011	0.4	5	1
+secondary	scanpy	True	D3_P25452		0	0
+secondary	scanpy	True	D4_P22202	0.4	5	1
+secondary	ulm	True	none (full)	0.47999999999999987	5	1
+secondary	ulm	True	D1_P30453	0.47999999999999987	5	1
+secondary	ulm	True	D2_P31011	0.47999999999999987	5	1
+secondary	ulm	True	D3_P25452		0	0
+secondary	ulm	True	D4_P22202	0.47999999999999987	5	1
+housekeeping	scanpy	True	none (full)	-0.10000000000000002	5	1
+housekeeping	scanpy	True	D1_P30453	-0.10000000000000002	5	1
+housekeeping	scanpy	True	D2_P31011	-0.10000000000000002	5	1
+housekeeping	scanpy	True	D3_P25452		0	0
+housekeeping	scanpy	True	D4_P22202	-0.10000000000000002	5	1
+housekeeping	ulm	True	none (full)	-0.10000000000000002	5	1
+housekeeping	ulm	True	D1_P30453	-0.10000000000000002	5	1
+housekeeping	ulm	True	D2_P31011	-0.10000000000000002	5	1
+housekeeping	ulm	True	D3_P25452		0	0
+housekeeping	ulm	True	D4_P22202	-0.10000000000000002	5	1
+primary	scanpy	False	none (full)	0.6166666666666667	12	4
+primary	scanpy	False	D1_P30453	0.6666666666666666	9	3
+primary	scanpy	False	D2_P31011	0.5777777777777778	9	3
+primary	scanpy	False	D3_P25452	0.6571428571428571	7	3
+primary	scanpy	False	D4_P22202	0.5818181818181819	11	3
+primary	ulm	False	none (full)	0.6666666666666666	12	4
+primary	ulm	False	D1_P30453	0.7555555555555554	9	3
+primary	ulm	False	D2_P31011	0.6000000000000001	9	3
+primary	ulm	False	D3_P25452	0.6857142857142857	7	3
+primary	ulm	False	D4_P22202	0.6363636363636364	11	3
+secondary	scanpy	False	none (full)	0.6666666666666666	12	4
+secondary	scanpy	False	D1_P30453	0.6666666666666666	9	3
+secondary	scanpy	False	D2_P31011	0.6444444444444444	9	3
+secondary	scanpy	False	D3_P25452	0.7428571428571429	7	3
+secondary	scanpy	False	D4_P22202	0.6363636363636364	11	3
+secondary	ulm	False	none (full)	0.7166666666666667	12	4
+secondary	ulm	False	D1_P30453	0.7333333333333333	9	3
+secondary	ulm	False	D2_P31011	0.6666666666666666	9	3
+secondary	ulm	False	D3_P25452	0.7999999999999999	7	3
+secondary	ulm	False	D4_P22202	0.6909090909090909	11	3
+housekeeping	scanpy	False	none (full)	-0.16666666666666666	12	4
+housekeeping	scanpy	False	D1_P30453	-0.17777777777777778	9	3
+housekeeping	scanpy	False	D2_P31011	-0.15555555555555556	9	3
+housekeeping	scanpy	False	D3_P25452	-0.19999999999999998	7	3
+housekeeping	scanpy	False	D4_P22202	-0.14545454545454545	11	3
+housekeeping	ulm	False	none (full)	-0.033333333333333326	12	4
+housekeeping	ulm	False	D1_P30453	-0.04444444444444443	9	3
+housekeeping	ulm	False	D2_P31011	0.02222222222222223	9	3
+housekeeping	ulm	False	D3_P25452	0.05714285714285713	7	3
+housekeeping	ulm	False	D4_P22202	-0.12727272727272726	11	3

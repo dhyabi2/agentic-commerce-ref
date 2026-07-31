@@ -1,0 +1,8 @@
+{
+  "gate_a_per_donor_age_recorded": false,
+  "n_donors_with_age": 0,
+  "series_level_age_statement": "11-14 years (four donors, not resolved per donor)",
+  "gate_b_age_span_adequate": false,
+  "verdict": "UNDEFINED - regressor does not exist",
+  "note": "No per-donor age or Tanner stage is recorded in GEO for GSE288028 (verified in SOFT and MINiML). Per the pre-registration, no age model is fitted and no age surrogate (donor index, accession order, batch order) is substituted."
+}
