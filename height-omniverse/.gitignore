@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/*
+!data/raw/.gitkeep
+database/*.duckdb
+vector_index/index/*
+sources/**/*.pdf

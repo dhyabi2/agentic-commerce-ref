@@ -1,0 +1,12 @@
+# Directness hierarchy (do not compress to one score unless components remain visible)
+tiers:
+  T1: "Human adult final height / mature segment length under the EXACT intervention"
+  T2: "Fusion-capable animal final mature long-bone length under the EXACT intervention"
+  T3: "Exact intervention in conventional growth plate, velocity/histology, NO maturity"
+  T4: "Related ligand/target in conventional growth plate"
+  T5: "Human genetic natural experiment"
+  T6: "Condyle / fracture / organoid / explant / non-fusing species"
+  T7: "Cellular / molecular markers"
+  T8: "Simulation / docking / network inference / anecdote"
+separate_dimensions: [endpoint_directness, species_directness, tissue_directness, intervention_identity,
+                      developmental_stage_match, study_quality, reproducibility, direction_consistency]

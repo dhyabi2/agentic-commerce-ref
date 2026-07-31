@@ -1,0 +1,32 @@
+# Endpoint ontology — ordered by directness to the PRIMARY biological endpoint.
+# PRIMARY: delta L_stable_final = mature length (intervention) - mature length (control),
+#          measured after washout, mineralization, remodeling, skeletal maturity.
+# A lower endpoint must NEVER silently stand in for a higher one.
+primary_endpoint: "delta_L_stable_final"
+rank:   # 1 = closest to primary/final length; higher = further surrogate
+  1:  adult_standing_height
+  1:  near_final_height
+  1:  mature_long_bone_length      # femur/tibia/humerus/vertebral
+  2:  stable_mineralized_length_post_washout
+  3:  segmental_dimension          # leg length, sitting height, spine, arm span, clavicle, craniofacial
+  4:  target_height_adjusted_height
+  5:  predicted_adult_height       # PAH — NOT adult height
+  6:  annualized_growth_velocity   # velocity — NOT adult height
+  6:  growth_plate_thickness       # thick plate is NOT necessarily productive
+  7:  bone_age_or_maturation_tempo # BA/CA
+  7:  time_to_physeal_fusion
+  8:  resting_zone_progenitor_number_or_clonal_diversity
+  8:  proliferation_matrix_hypertrophic_geometry_ossification
+  9:  mandibular_condyle_growth    # secondary cartilage — NOT a conventional physis
+  9:  fracture_callus_or_cartilage_repair  # repair — NOT longitudinal growth
+  10: biomarker_or_gene_expression # expression is NOT pathway activity
+forbidden_substitutions:
+  - "growth_velocity != adult_height"
+  - "predicted_adult_height != adult_height"
+  - "open_plate != productive_plate"
+  - "thick_plate != productive_plate"
+  - "delayed_ossification != greater_final_length"
+  - "condylar_cartilage != conventional_long_bone_physis"
+  - "fracture_repair != longitudinal_growth"
+  - "expression != pathway_activity"
+  - "simulation != empirical_evidence"

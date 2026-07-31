@@ -1,0 +1,11 @@
+# Developmental states (store chronological age, sex, Tanner, bone age+method, velocity, plate continuity)
+states: [fetal, neonatal_pre_SOC, niche_forming, early_post_SOC, mature_productive_childhood_plate,
+         early_puberty, mid_puberty, late_puberty, senescent_closing_plate, fused, adult_remodeling, repair_injury]
+mapping_rule: "Map stages by SOC formation + sexual maturity + growth velocity + physeal histology, NOT chronological age alone."
+cell_states: [deep_root_resting_stem, active_PTHrP_resting, Apoe_Clu_C1qtnf3_resting, Ranvier_peripheral_progenitor,
+              transit_amplifying_proliferative, columnar_proliferative, prehypertrophic, early_hypertrophic,
+              terminal_hypertrophic, osteogenic_descendant, stromal_descendant, endothelial_vascular_niche,
+              osteoclast_chondroclast, perichondrial, articular_contaminant]
+anatomical_sites: [distal_femur, proximal_tibia, distal_tibia, proximal_humerus, radius_ulna, metacarpal_phalanx,
+                   vertebral_plate_endplate, pelvis, clavicle, cranial_base, mandibular_condyle, articular_cartilage,
+                   perichondrium_ranvier, fracture_callus, engineered_cartilage]

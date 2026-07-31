@@ -1,0 +1,13 @@
+# Species registry — do NOT equate mouse days / rat weeks / rabbit months / human bone age
+# by chronological conversion alone. Fusion biology differs.
+species:
+  human:        {priority: 1, complete_fusion: true,  partial_bridging: false, cartilage_remnants: false, pubertal_sex_steroid_fusion: true,  notes: "target species; slow to study; ethics-limited"}
+  nonhuman_primate: {priority: 2, complete_fusion: true, partial_bridging: false, cartilage_remnants: false, pubertal_sex_steroid_fusion: true, notes: "closest fusion biology; scarce"}
+  rabbit:       {priority: 3, complete_fusion: true,  partial_bridging: false, cartilage_remnants: false, pubertal_sex_steroid_fusion: true,  notes: "FUSION-CAPABLE — key for final-length translation"}
+  pig:          {priority: 4, complete_fusion: true,  partial_bridging: true,  cartilage_remnants: false, pubertal_sex_steroid_fusion: true,  notes: "large-animal; slow fusion"}
+  sheep_goat:   {priority: 4, complete_fusion: true,  partial_bridging: true,  cartilage_remnants: false, pubertal_sex_steroid_fusion: true,  notes: "large-animal orthopedic model"}
+  rat:          {priority: 5, complete_fusion: false, partial_bridging: false, cartilage_remnants: true,  pubertal_sex_steroid_fusion: partial, notes: "physes DO NOT fully fuse — final-height flag REQUIRED"}
+  mouse:        {priority: 6, complete_fusion: false, partial_bridging: false, cartilage_remnants: true,  pubertal_sex_steroid_fusion: partial, notes: "physes do not fully fuse; most genetics here; NOT final-height evidence without flag"}
+  zebrafish:    {priority: 7, complete_fusion: false, partial_bridging: false, cartilage_remnants: true,  pubertal_sex_steroid_fusion: false,   notes: "developmental system; deeply conserved pathways only"}
+  chicken:      {priority: 7, complete_fusion: false, partial_bridging: false, cartilage_remnants: true,  pubertal_sex_steroid_fusion: false,   notes: "developmental system"}
+rule: "Do not call mouse/rat evidence 'final-height evidence' without a species-limitation flag."

@@ -1,0 +1,9 @@
+project: height_omniverse
+purpose: "Reproducible research evidence warehouse for interventions that change stable final adult stature / mature skeletal length. NOT a treatment recommendation, NOT a personal protocol, NOT a 'best stack'."
+seed: 20260731
+search_date: 2026-07-31
+primary_endpoint: delta_L_stable_final
+db: database/height_omniverse.duckdb
+formats: {large_tables: parquet, local_query: duckdb, snippets: jsonl, graph: [graphml, parquet], small_human_tables: csv}
+hard_rules_ref: docs/METHODS.md
+disclaimer: "This repository is an evidence warehouse and simulation framework. It does not recommend a height intervention or personal protocol."
