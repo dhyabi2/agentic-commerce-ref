@@ -1,0 +1,15 @@
+intervention_id,name,synonyms,modality,target,action,approval_status,route,pk_summary,evidence_context,technology_readiness,source_provenance
+IV_GH,Recombinant GH (somatropin),somatropin,hormone (recombinant protein),GH receptor,agonist (JAK/STAT->IGF-1),approved (ISS/GHD/Turner),SC daily,short t1/2 (hrs; NOT RETRIEVED),human final-height RCT/registry,approved,PMID 15240584; 10102057
+IV_LAGH,Long-acting GH,lonapegsomatropin; somatrogon; somapacitan,hormone (modified GH),GH receptor,agonist,approved (pediatric GHD),SC weekly,weekly; t1/2 NOT RETRIEVED,52-wk velocity RCTs,approved,PMC11480202
+IV_AI,Aromatase inhibitor,letrozole; anastrozole,small molecule,aromatase (CYP19),inhibitor (blocks estrogen synthesis),approved oncology; OFF-LABEL short stature,oral daily,letrozole t1/2 ~2 d (UNVERIFIED),PAH RCT + adult-height RCT,approved (off-label use),PMID 16189252; 31024444
+IV_GNRHA,GnRH agonist,leuprolide; triptorelin; histrelin,peptide analogue,GnRH receptor,agonist (pituitary desensitization),approved (CPP),SC/IM depot or implant,depot 1-6 mo,adult-height RCT (CPP/ISS),approved,PMID 12621135; PMC5752503
+IV_OXA,Oxandrolone,,small molecule (anabolic androgen),androgen receptor,agonist,approved (adjunct; Turner),oral daily,t1/2 NOT RETRIEVED,final-height RCT (Turner),approved,PMID 21493672
+IV_VOSO,Vosoritide,BMN-111,peptide (CNP analogue),NPR-B (NPR2),agonist (inhibits FGFR3/MAPK),approved (achondroplasia),SC daily,short t1/2 (engineered),phase-3 velocity RCT,approved,PMID 32891212
+IV_NAVE,Navepegritide,TransCon CNP,peptide prodrug (PEG sustained release),NPR-B (NPR2),agonist,investigational (BLA-stage),SC weekly,weekly release,phase-3 velocity RCT,phase 3,PMID 41247754
+IV_INFI,Infigratinib,BGJ398; Truseltiq,small-molecule TKI,FGFR1-3,inhibitor,investigational (onc-approved),oral daily,t1/2 NOT RETRIEVED,phase-3 velocity RCT,phase 3,PMID 42370681
+IV_TYRA,TYRA-300,dabogratinib,small-molecule TKI,FGFR3-selective,inhibitor,investigational (Ph2),oral,NOT RETRIEVED,no efficacy data yet,phase 2,NCT BEACH301
+IV_IGF1,Mecasermin (rhIGF-1),,peptide hormone,IGF-1 receptor,agonist,approved (severe primary IGF-1 deficiency),SC BID,short t1/2 (BID),near-adult-height registry,approved,PMID 40626687
+IV_ESTR,Estrogen (low-dose),ethinylestradiol; estradiol,steroid hormone,estrogen receptor,agonist (growth-plate + GH/IGF axis),approved (Turner induction),oral/transdermal,NOT RETRIEVED,adult-height RCT (Turner),approved,PMID 21449786
+IV_LT4,Levothyroxine,,thyroid hormone (T4),thyroid hormone receptor,agonist,approved,oral daily,t1/2 ~7 d (UNVERIFIED),cohort to adult height,approved,PMID 11580992
+IV_NUTR,Nutrition/energy supplementation,,nutrient/public-health,systemic anabolic/IGF-1 substrate,substrate,NA,oral,NA,RCT/reviews (stunting),established,PMC7360439
+IV_ABL,Abaloparatide,BA058; TYMLOS,peptide (PTHrP analogue),PTH1R,"agonist (RG-biased, transient cAMP)",approved (osteoporosis),SC daily,Tmax 0.51 h; t1/2 ~1 h,condyle only in growing organisms; NO conventional-physis final length,approved (diff. indication),companion analysis; PMID 26562265

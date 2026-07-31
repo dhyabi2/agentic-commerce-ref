@@ -1,0 +1,7 @@
+hypothesis,basis,evidence_weight,validation_needed
+"Reduced-activity 'brake' targets (NPR3, ESR1-local, FGFR3) may raise final length if modulated postnatally",human genetics: LoF -> taller,NONE (genetics != drug direction),fusing-species postnatal modulation + final length
+STC2/PAPP-A2 axis modulation could raise free-IGF-1 and length,STC2 tall variant; PAPPA2 LoF short,NONE,targeted trial with final height
+Distraction/tension mechanotransduction (PTHrP/TRPV4/PIEZO) as a spatial lever,Hueter-Volkmann + loading->PTHrP,NONE (velocity only),final-length experiment
+Late-pubertal window may differ in sign from early (reserve nearly spent),twin stage-dependence (simulation),NONE (simulation),stage-resolved final-length data
+CNP/NPR2 pathway final-height (not just velocity),velocity RCTs positive,NONE for final height,near-adult-height endpoint
+Epigenetic overgrowth genes (DNMT3A/NSD1/EZH2) mark modifiable brakes,overgrowth syndromes tall,NONE (syndromic pleiotropy),conditional postnatal perturbation

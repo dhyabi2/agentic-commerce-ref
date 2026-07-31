@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Levothyroxine",
+  "aliases": "",
+  "modality": "thyroid hormone (T4)",
+  "target": "thyroid hormone receptor",
+  "action": "agonist",
+  "approval_status": "approved",
+  "route": "oral daily",
+  "pk": "t1/2 ~7 d (UNVERIFIED)",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Levothyroxine",
+      "population": "congenital hypothyroidism (screened)",
+      "design": "observational cohorts",
+      "n": "varies",
+      "surrogate_effect": "catch-up velocity",
+      "adult_height_effect": "normal adult height if treated early; incomplete if late",
+      "surrogate_translated": "YES",
+      "direction": "+",
+      "source_id": "PMID 11580992",
+      "notes": "target/genetic height dominant; acquired hypoT catch-up may be incomplete"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E14",
+      "subject": "Levothyroxine",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "early-treated hypothyroidism",
+      "effect_size": "normal if early",
+      "source_id": "PMID 11580992",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 11580992"
+}

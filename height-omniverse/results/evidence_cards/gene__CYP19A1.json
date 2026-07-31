@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "CYP19A1",
+  "name": "cytochrome P450 family 19 subfamily A member 1",
+  "ensembl": "ENSG00000137869",
+  "monogenic_stature_evidence": "tall, UNFUSED epiphyses, continued growth",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8530621"
+}

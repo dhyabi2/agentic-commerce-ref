@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "EZH2",
+  "name": "enhancer of zeste 2 polycomb repressive complex 2 subunit",
+  "ensembl": "ENSG00000106462",
+  "monogenic_stature_evidence": "Weaver overgrowth",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 24214728"
+}

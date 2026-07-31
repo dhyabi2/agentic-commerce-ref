@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "PAPPA2",
+  "name": "pappalysin 2",
+  "ensembl": "ENSG00000116183",
+  "monogenic_stature_evidence": "progressive growth failure; high total/low free IGF-1",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 26902202"
+}

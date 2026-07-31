@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Navepegritide",
+  "aliases": "TransCon CNP",
+  "modality": "peptide prodrug (PEG sustained release)",
+  "target": "NPR-B (NPR2)",
+  "action": "agonist",
+  "approval_status": "investigational (BLA-stage)",
+  "route": "SC weekly",
+  "pk": "weekly release",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Navepegritide (TransCon CNP)",
+      "population": "achondroplasia",
+      "design": "phase-3 RCT (ApproaCH) 52 wk",
+      "n": "84",
+      "surrogate_effect": "AGV 5.84 vs 3.88 cm/yr",
+      "adult_height_effect": "NOT RETRIEVED (none)",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "+",
+      "source_id": "PMID 41247754",
+      "notes": "investigational; adult height not assessed"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E11",
+      "subject": "Navepegritide",
+      "predicate": "changes",
+      "object": "annualized growth velocity",
+      "direction": "+",
+      "context": "achondroplasia, RCT",
+      "effect_size": "+1.96 cm/yr",
+      "source_id": "PMID 41247754",
+      "evidence_tier": "T3",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 41247754"
+}

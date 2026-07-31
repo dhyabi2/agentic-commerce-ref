@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "SHOX",
+  "name": "SHOX homeobox",
+  "ensembl": "ENSG00000185960",
+  "monogenic_stature_evidence": "Leri-Weill dyschondrosteosis / ISS; mesomelic",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 20301394"
+}

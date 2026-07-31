@@ -1,0 +1,12 @@
+accession,organism,assay,processed_downloadable,url,relevance
+GSE288529,mouse,scRNA-seq 10x,YES,geo/acc?acc=GSE288529,4-wk epiphysis; ApoE resting-zone marker (HIGH)
+GSE244884/880/881,mouse,scRNA-seq,YES,geo/acc?acc=GSE244884,"Hedgehog/Ptch1 resting-zone, P36, PTHrP-creER lineage (HIGH)"
+GSE275171,mouse,scRNA-seq,YES,geo/acc?acc=GSE275171,"Fgfr3 achondroplasia resting-zone/CREB, P19-22 (HIGH)"
+GSE288028,human+mouse,scRNA-seq,PARTIAL (human raw withheld PII),geo/acc?acc=GSE288028,2026 human pubertal GP 11-14y + GH stim (HIGH)
+PRJNA793434,mouse,LMD RNA-seq (zonal),SRA raw,bioproject/PRJNA793434,resting vs proliferative laser-microdissection (HIGH)
+PRJNA937633 / GSE225796,mouse,zonal RNA-seq,YES,geo/acc?acc=GSE225796,round/resting-layer specificity + height-GWAS enrichment (HIGH)
+PRJNA832296/832298,mouse,scRNA/bulk,SRA raw,bioproject/PRJNA832296,Idh1-mutant EMBRYONIC E18.5 (keep separate)
+GSE270640/270641,mouse,expr+methylation,YES,geo/acc?acc=GSE270640,Dnmt1 determines bone length via GP metabolism (HIGH)
+GSE160364,mouse,bulk RNA-seq,YES,geo/acc?acc=GSE160364,label-retaining (resting) chondrocytes
+GSE271634 / GSE326052 / GSE275252 / GSE182540,mouse,scRNA-seq,YES,GEO,"additional postnatal GP scRNA (aging, GPR126, chondro-HSC)"
+GSE267139,human,scRNA-seq,YES,geo/acc?acc=GSE267139,human cartilage development (largely fetal)

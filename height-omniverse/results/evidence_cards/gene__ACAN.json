@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "ACAN",
+  "name": "aggrecan",
+  "ensembl": "ENSG00000157766",
+  "monogenic_stature_evidence": "short + ADVANCED bone age, early OA",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 27870580"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "intervention",
+  "name": "Abaloparatide",
+  "aliases": "BA058; TYMLOS",
+  "modality": "peptide (PTHrP analogue)",
+  "target": "PTH1R",
+  "action": "agonist (RG-biased, transient cAMP)",
+  "approval_status": "approved (osteoporosis)",
+  "route": "SC daily",
+  "pk": "Tmax 0.51 h; t1/2 ~1 h",
+  "surrogate_vs_final_height": [],
+  "evidence_edges": [
+    {
+      "edge_id": "E16",
+      "subject": "Abaloparatide",
+      "predicate": "changes",
+      "object": "mandibular condyle length",
+      "direction": "+",
+      "context": "adolescent rat, condyle (secondary cartilage)",
+      "effect_size": "+1.34 mm (local)",
+      "source_id": "PMID 37727017",
+      "evidence_tier": "T6",
+      "directness": "low",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    },
+    {
+      "edge_id": "E17",
+      "subject": "Abaloparatide",
+      "predicate": "changes",
+      "object": "conventional long-bone final length",
+      "direction": "?",
+      "context": "no study exists",
+      "effect_size": "not identified",
+      "source_id": "companion analysis",
+      "evidence_tier": "T8",
+      "directness": "none",
+      "confidence": "low",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "companion analysis; PMID 26562265"
+}

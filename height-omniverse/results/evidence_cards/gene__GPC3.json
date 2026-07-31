@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "GPC3",
+  "name": "glypican 3",
+  "ensembl": "ENSG00000147257",
+  "monogenic_stature_evidence": "Simpson-Golabi-Behmel overgrowth",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8589713"
+}

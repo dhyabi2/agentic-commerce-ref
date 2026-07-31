@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "IGF2",
+  "name": "insulin like growth factor 2",
+  "ensembl": "ENSG00000167244",
+  "monogenic_stature_evidence": "Silver-Russell growth restriction",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 26154720"
+}

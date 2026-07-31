@@ -1,0 +1,552 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="confidence" attr.type="string" />
+  <key id="d5" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d4" for="edge" attr.name="tier" attr.type="string" />
+  <key id="d3" for="edge" attr.name="context" attr.type="string" />
+  <key id="d2" for="edge" attr.name="direction" attr.type="string" />
+  <key id="d1" for="edge" attr.name="predicate" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Recombinant GH">
+      <data key="d0">Recombinant GH</data>
+    </node>
+    <node id="attained adult height">
+      <data key="d0">attained adult height</data>
+    </node>
+    <node id="Aromatase inhibitor (letrozole)">
+      <data key="d0">Aromatase inhibitor (letrozole)</data>
+    </node>
+    <node id="predicted adult height">
+      <data key="d0">predicted adult height</data>
+    </node>
+    <node id="GnRH agonist">
+      <data key="d0">GnRH agonist</data>
+    </node>
+    <node id="Oxandrolone (+GH)">
+      <data key="d0">Oxandrolone (+GH)</data>
+    </node>
+    <node id="Vosoritide">
+      <data key="d0">Vosoritide</data>
+    </node>
+    <node id="annualized growth velocity">
+      <data key="d0">annualized growth velocity</data>
+    </node>
+    <node id="Infigratinib">
+      <data key="d0">Infigratinib</data>
+    </node>
+    <node id="Navepegritide">
+      <data key="d0">Navepegritide</data>
+    </node>
+    <node id="Mecasermin (rhIGF-1)">
+      <data key="d0">Mecasermin (rhIGF-1)</data>
+    </node>
+    <node id="near-final height">
+      <data key="d0">near-final height</data>
+    </node>
+    <node id="Estrogen (low-dose)">
+      <data key="d0">Estrogen (low-dose)</data>
+    </node>
+    <node id="Levothyroxine">
+      <data key="d0">Levothyroxine</data>
+    </node>
+    <node id="Nutrition/energy supplementation">
+      <data key="d0">Nutrition/energy supplementation</data>
+    </node>
+    <node id="Abaloparatide">
+      <data key="d0">Abaloparatide</data>
+    </node>
+    <node id="mandibular condyle length">
+      <data key="d0">mandibular condyle length</data>
+    </node>
+    <node id="conventional long-bone final length">
+      <data key="d0">conventional long-bone final length</data>
+    </node>
+    <node id="SHOX">
+      <data key="d0">SHOX</data>
+    </node>
+    <node id="adult height">
+      <data key="d0">adult height</data>
+    </node>
+    <node id="ACAN">
+      <data key="d0">ACAN</data>
+    </node>
+    <node id="NPR2">
+      <data key="d0">NPR2</data>
+    </node>
+    <node id="NPPC">
+      <data key="d0">NPPC</data>
+    </node>
+    <node id="NPR3">
+      <data key="d0">NPR3</data>
+    </node>
+    <node id="FGFR3">
+      <data key="d0">FGFR3</data>
+    </node>
+    <node id="IHH">
+      <data key="d0">IHH</data>
+    </node>
+    <node id="GHR">
+      <data key="d0">GHR</data>
+    </node>
+    <node id="STAT5B">
+      <data key="d0">STAT5B</data>
+    </node>
+    <node id="IGF1">
+      <data key="d0">IGF1</data>
+    </node>
+    <node id="IGF1R">
+      <data key="d0">IGF1R</data>
+    </node>
+    <node id="IGFALS">
+      <data key="d0">IGFALS</data>
+    </node>
+    <node id="PAPPA2">
+      <data key="d0">PAPPA2</data>
+    </node>
+    <node id="STC2">
+      <data key="d0">STC2</data>
+    </node>
+    <node id="CYP19A1">
+      <data key="d0">CYP19A1</data>
+    </node>
+    <node id="ESR1">
+      <data key="d0">ESR1</data>
+    </node>
+    <node id="DNMT3A">
+      <data key="d0">DNMT3A</data>
+    </node>
+    <node id="NSD1">
+      <data key="d0">NSD1</data>
+    </node>
+    <node id="EZH2">
+      <data key="d0">EZH2</data>
+    </node>
+    <node id="GPC3">
+      <data key="d0">GPC3</data>
+    </node>
+    <node id="IGF2">
+      <data key="d0">IGF2</data>
+    </node>
+    <node id="PEMF (28Hz/2mT)">
+      <data key="d0">PEMF (28Hz/2mT)</data>
+    </node>
+    <node id="growth-plate thickness">
+      <data key="d0">growth-plate thickness</data>
+    </node>
+    <node id="LIPUS">
+      <data key="d0">LIPUS</data>
+    </node>
+    <node id="final long-bone length">
+      <data key="d0">final long-bone length</data>
+    </node>
+    <node id="Static compression">
+      <data key="d0">Static compression</data>
+    </node>
+    <node id="longitudinal growth rate">
+      <data key="d0">longitudinal growth rate</data>
+    </node>
+    <node id="Distraction/tension">
+      <data key="d0">Distraction/tension</data>
+    </node>
+    <node id="Jumping exercise">
+      <data key="d0">Jumping exercise</data>
+    </node>
+    <node id="24-wk height gain (velocity)">
+      <data key="d0">24-wk height gain (velocity)</data>
+    </node>
+    <node id="HT042 (botanical)">
+      <data key="d0">HT042 (botanical)</data>
+    </node>
+    <node id="Zinc">
+      <data key="d0">Zinc</data>
+    </node>
+    <node id="linear growth">
+      <data key="d0">linear growth</data>
+    </node>
+    <edge source="Recombinant GH" target="attained adult height" id="E1">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">ISS, RCT</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 15240584</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Recombinant GH" target="attained adult height" id="E2">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">GHD, registry</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 10102057</data>
+      <data key="d6">high</data>
+    </edge>
+    <edge source="Aromatase inhibitor (letrozole)" target="predicted adult height" id="E3">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">ISS boys, RCT</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 16189252</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Aromatase inhibitor (letrozole)" target="attained adult height" id="E4">
+      <data key="d1">changes</data>
+      <data key="d2">0</data>
+      <data key="d3">ISS boys, RCT to AH</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 31024444</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="GnRH agonist" target="attained adult height" id="E5">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">early-onset CPP</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMC5752503</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="GnRH agonist" target="attained adult height" id="E6">
+      <data key="d1">changes</data>
+      <data key="d2">0</data>
+      <data key="d3">normal-puberty ISS</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 12621135</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Oxandrolone (+GH)" target="attained adult height" id="E7">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">Turner, RCT</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 21493672</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Vosoritide" target="annualized growth velocity" id="E8">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">achondroplasia, RCT</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 32891212</data>
+      <data key="d6">high</data>
+    </edge>
+    <edge source="Vosoritide" target="attained adult height" id="E9">
+      <data key="d1">changes</data>
+      <data key="d2">?</data>
+      <data key="d3">achondroplasia</data>
+      <data key="d4">T8</data>
+      <data key="d5">PMID 32891212</data>
+      <data key="d6">low</data>
+    </edge>
+    <edge source="Infigratinib" target="annualized growth velocity" id="E10">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">achondroplasia, RCT</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 42370681</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Navepegritide" target="annualized growth velocity" id="E11">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">achondroplasia, RCT</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 41247754</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Mecasermin (rhIGF-1)" target="near-final height" id="E12">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">primary IGF-1 deficiency</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 40626687</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Estrogen (low-dose)" target="attained adult height" id="E13">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">Turner, RCT (adjunct)</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 21449786</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Levothyroxine" target="attained adult height" id="E14">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">early-treated hypothyroidism</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 11580992</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Nutrition/energy supplementation" target="attained adult height" id="E15">
+      <data key="d1">changes</data>
+      <data key="d2">0</data>
+      <data key="d3">stunting after ~2 yr</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMC7360439</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Abaloparatide" target="mandibular condyle length" id="E16">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">adolescent rat, condyle (secondary cartilage)</data>
+      <data key="d4">T6</data>
+      <data key="d5">PMID 37727017</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Abaloparatide" target="conventional long-bone final length" id="E17">
+      <data key="d1">changes</data>
+      <data key="d2">?</data>
+      <data key="d3">no study exists</data>
+      <data key="d4">T8</data>
+      <data key="d5">companion analysis</data>
+      <data key="d6">low</data>
+    </edge>
+    <edge source="SHOX" target="adult height" id="G1">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF/haploinsufficiency; developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 20301394</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="ACAN" target="adult height" id="G2">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF (het); growth-plate; postnatal cessation</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 27870580</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="NPR2" target="adult height" id="G3">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF (biallelic); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 15146390</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="NPR2" target="adult height" id="G4">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">GoF; developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 22870295</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="NPPC" target="adult height" id="G5">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">overexpression/dup; developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 17373680</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="NPR3" target="adult height" id="G6">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (biallelic); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 40171685</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="FGFR3" target="adult height" id="G7">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">GoF (G380R); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 7913883</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="FGFR3" target="adult height" id="G8">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">GoF (N540K); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8589686</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="FGFR3" target="adult height" id="G9">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (R621H); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 17033969</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="IHH" target="adult height" id="G10">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter (digits)</data>
+      <data key="d3">LoF (missense); developmental (digit patterning)</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 20024692</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="GHR" target="adult height" id="G11">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF; postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8488849</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="STAT5B" target="adult height" id="G12">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF; postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 13679528</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="IGF1" target="adult height" id="G13">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF (deletion); prenatal+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8857020</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="IGF1R" target="adult height" id="G14">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF (het); prenatal+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 14657428</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="IGFALS" target="adult height" id="G15">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter (mild)</data>
+      <data key="d3">LoF; postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 21396577</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="PAPPA2" target="adult height" id="G16">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF; postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 26902202</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="STC2" target="adult height" id="G17">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">rare coding (inhibits PAPP-A); postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 28146470</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="CYP19A1" target="adult height" id="G18">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (aromatase deficiency); postnatal (fusion boundary)</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8530621</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="ESR1" target="adult height" id="G19">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (estrogen resistance); postnatal (fusion boundary)</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8090165</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="DNMT3A" target="adult height" id="G20">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (germline het); developmental+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 27701732</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="NSD1" target="adult height" id="G21">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF/haploinsufficiency; prenatal+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 12687502</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="EZH2" target="adult height" id="G22">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (het); prenatal+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 24214728</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="GPC3" target="adult height" id="G23">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">taller</data>
+      <data key="d3">LoF (X-linked); prenatal+postnatal</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 8589713</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="IGF2" target="adult height" id="G24">
+      <data key="d1">altered-activity-changes</data>
+      <data key="d2">shorter</data>
+      <data key="d3">LoF (paternal); prenatal (imprinted)</data>
+      <data key="d4">T5</data>
+      <data key="d5">PMID 26154720</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="PEMF (28Hz/2mT)" target="growth-plate thickness" id="M1">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">immature rat</data>
+      <data key="d4">T3</data>
+      <data key="d5">DOI 10.3390/app11167571</data>
+      <data key="d6">low</data>
+    </edge>
+    <edge source="LIPUS" target="final long-bone length" id="M2">
+      <data key="d1">changes</data>
+      <data key="d2">0</data>
+      <data key="d3">young rat</data>
+      <data key="d4">T2</data>
+      <data key="d5">PMID 9651966</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Static compression" target="longitudinal growth rate" id="M3">
+      <data key="d1">changes</data>
+      <data key="d2">-</data>
+      <data key="d3">immature (Hueter-Volkmann)</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 16705695</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Distraction/tension" target="longitudinal growth rate" id="M4">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">immature</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 16705695</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Jumping exercise" target="24-wk height gain (velocity)" id="M5">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">prepubertal children</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 41233903</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="HT042 (botanical)" target="24-wk height gain (velocity)" id="M6">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">short children RCT</data>
+      <data key="d4">T3</data>
+      <data key="d5">PMID 29130588</data>
+      <data key="d6">moderate</data>
+    </edge>
+    <edge source="Zinc" target="linear growth" id="M7">
+      <data key="d1">changes</data>
+      <data key="d2">+</data>
+      <data key="d3">deficiency-risk children</data>
+      <data key="d4">T1</data>
+      <data key="d5">PMID 21501440</data>
+      <data key="d6">low</data>
+    </edge>
+  </graph>
+</graphml>

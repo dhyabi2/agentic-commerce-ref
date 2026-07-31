@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "DNMT3A",
+  "name": "DNA methyltransferase 3 alpha",
+  "ensembl": "ENSG00000119772",
+  "monogenic_stature_evidence": "Tatton-Brown-Rahman overgrowth",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 27701732"
+}

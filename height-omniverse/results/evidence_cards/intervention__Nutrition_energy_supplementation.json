@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Nutrition/energy supplementation",
+  "aliases": "",
+  "modality": "nutrient/public-health",
+  "target": "systemic anabolic/IGF-1 substrate",
+  "action": "substrate",
+  "approval_status": "",
+  "route": "oral",
+  "pk": "",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Nutrition/energy supplementation",
+      "population": "stunting/undernutrition (LMIC)",
+      "design": "RCTs/systematic reviews",
+      "n": "many",
+      "surrogate_effect": "short-term catch-up, attenuates after stopping",
+      "adult_height_effect": "NO robust final-height recovery after ~2 yr",
+      "surrogate_translated": "NO",
+      "direction": "+",
+      "source_id": "PMC7360439",
+      "notes": "window-limited; prevention > reversal"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E15",
+      "subject": "Nutrition/energy supplementation",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "0",
+      "context": "stunting after ~2 yr",
+      "effect_size": "no robust recovery",
+      "source_id": "PMC7360439",
+      "evidence_tier": "T1",
+      "directness": "med",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMC7360439"
+}

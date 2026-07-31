@@ -1,0 +1,80 @@
+{
+  "type": "intervention",
+  "name": "GnRH agonist",
+  "aliases": "leuprolide; triptorelin; histrelin",
+  "modality": "peptide analogue",
+  "target": "GnRH receptor",
+  "action": "agonist (pituitary desensitization)",
+  "approval_status": "approved (CPP)",
+  "route": "SC/IM depot or implant",
+  "pk": "depot 1-6 mo",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "GnRH agonist",
+      "population": "short adolescents, normal puberty (ISS-like)",
+      "design": "RCT to adult height",
+      "n": "50",
+      "surrogate_effect": "delays BA/puberty",
+      "adult_height_effect": "+4.2 cm/+0.6 SD vs placebo",
+      "surrogate_translated": "YES",
+      "direction": "+",
+      "source_id": "PMID 12621135",
+      "notes": "Yanovski 2003; BUT decreased BMD; not routinely recommended"
+    },
+    {
+      "intervention": "GnRH agonist",
+      "population": "early-onset central precocious puberty",
+      "design": "cohorts/observational",
+      "n": "varies",
+      "surrogate_effect": "halts BA advance; PAH rises",
+      "adult_height_effect": "AH > initial PAH by ~3.9 cm; reaches target",
+      "surrogate_translated": "YES",
+      "direction": "+",
+      "source_id": "PMC5752503",
+      "notes": "benefit mainly EARLY-onset CPP; little/none if late"
+    },
+    {
+      "intervention": "GnRH agonist + GH",
+      "population": "early-puberty girls, short PAH",
+      "design": "RCTs/cohorts",
+      "n": "varies",
+      "surrogate_effect": "additive PAH/velocity",
+      "adult_height_effect": "modest AH gain over GnRHa alone; inconsistent",
+      "surrogate_translated": "PARTIAL",
+      "direction": "+",
+      "source_id": "PMC6332953",
+      "notes": "combination benefit context-dependent; not established in normal-puberty ISS"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E5",
+      "subject": "GnRH agonist",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "early-onset CPP",
+      "effect_size": "AH > initial PAH ~3.9 cm",
+      "source_id": "PMC5752503",
+      "evidence_tier": "T1",
+      "directness": "med",
+      "confidence": "moderate",
+      "conflicting_edges": "E6"
+    },
+    {
+      "edge_id": "E6",
+      "subject": "GnRH agonist",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "0",
+      "context": "normal-puberty ISS",
+      "effect_size": "small; not recommended",
+      "source_id": "PMID 12621135",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": "E5"
+    }
+  ],
+  "source_provenance": "PMID 12621135; PMC5752503"
+}

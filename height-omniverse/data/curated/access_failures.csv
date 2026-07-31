@@ -1,0 +1,12 @@
+source,reason,attempted_method,metadata_found,request_route,importance
+Long-acting GH final-height data,not yet published,Europe PMC/registry,52-wk velocity only,await publication,high
+Vosoritide controlled adult-height endpoint,does not exist (velocity-only trials),PubMed/registry,press ~13.6 cm/8 yr vs nat-hist,await BioMarin LTE peer review,high
+Navepegritide/Infigratinib/TYRA-300 adult height,velocity-only / no data yet,PubMed/ClinicalTrials,AGV deltas,await final-height endpoints,high
+Letrozole 2020-2025 final-height RCT (>N=20),not located,Europe PMC,only Varimo 2019 N=20,author/registry,medium
+Precise PK half-lives (most compounds),FDA-label PK pages not fetched,label lookup,dosing frequency only,fetch DailyMed/label,medium
+Restricted individual-level genetics (UKB/dbGaP/EGA),access-controlled,N/A (public summary only),summary stats only,formal data access application,medium
+PEMF anchor (Yang/Sung 2021),"not MEDLINE-indexed (Applied Sciences, MDPI)",Crossref/DOI,"GP length +25.6%, IGF-1 +13.6%; DOI 10.3390/app11167571",cite DOI; endpoint is GP thickness NOT final length,medium
+Final adult bone-length effect of ANY mechanical intervention in humans,does not exist,Europe PMC,only velocity/thickness or no-effect (LIPUS null),decisive experiment needed,high
+"Botanical final-height evidence (icariin, Cissus, Eucommia, Phlomis, p-coumaric)",only animal velocity / none for longitudinal growth,Europe PMC,HT042 human RCT +0.29 cm 24-wk velocity only (PMID 29130588),human final-height RCTs,medium
+Yengo 2022 growth-plate/chondrocyte cell-type enrichment,not in retrieved abstract,Europe PMC,abstract says only 'biologically relevant genes',full-text/supplement + Wood 2014,medium
+GSE288028 human raw sequence,withheld (PII),GEO,processed matrices public only,controlled-access request,medium

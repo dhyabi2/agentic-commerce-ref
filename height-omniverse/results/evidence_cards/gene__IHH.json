@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "IHH",
+  "name": "Indian hedgehog signaling molecule",
+  "ensembl": "ENSG00000163501",
+  "monogenic_stature_evidence": "brachydactyly type A1",
+  "direction_of_effect": "shorter (digits)",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 20024692"
+}

@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Oxandrolone",
+  "aliases": "",
+  "modality": "small molecule (anabolic androgen)",
+  "target": "androgen receptor",
+  "action": "agonist",
+  "approval_status": "approved (adjunct; Turner)",
+  "route": "oral daily",
+  "pk": "t1/2 NOT RETRIEVED",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Oxandrolone (+GH)",
+      "population": "Turner syndrome",
+      "design": "double-blind RCT to final height",
+      "n": "~106; meta 498",
+      "surrogate_effect": "velocity/BA increase",
+      "adult_height_effect": "+~4.6 cm final height vs placebo (on GH)",
+      "surrogate_translated": "YES",
+      "direction": "+",
+      "source_id": "PMID 21493672",
+      "notes": "Gault 2011; late pubertal induction added ~3.8 cm"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E7",
+      "subject": "Oxandrolone (+GH)",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "Turner, RCT",
+      "effect_size": "+4.6 cm",
+      "source_id": "PMID 21493672",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 21493672"
+}

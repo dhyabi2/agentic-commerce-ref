@@ -1,0 +1,3 @@
+source,type,retrieval_date,license,sha256,local_path
+HGNC complete set,gene universe,2026-07-31,"HGNC (custom, open)",d03e548d9c144983e12b92fa003cba26329b7768271548290db025487ffef5f5,data/raw/hgnc_complete_set.txt
+GSE288529_RAW.tar (prior audit),scRNA-seq,2026-07-31,GEO open,91aeed9ef961fc505082489c31b0c54844b70892aa6b95c68b724924c36d4439,../abaloparatide-growth (reused)

@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Estrogen (low-dose)",
+  "aliases": "ethinylestradiol; estradiol",
+  "modality": "steroid hormone",
+  "target": "estrogen receptor",
+  "action": "agonist (growth-plate + GH/IGF axis)",
+  "approval_status": "approved (Turner induction)",
+  "route": "oral/transdermal",
+  "pk": "NOT RETRIEVED",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Estrogen (low-dose childhood, +/-GH)",
+      "population": "Turner syndrome",
+      "design": "double-blind 2x2 RCT to adult height",
+      "n": "~149",
+      "surrogate_effect": "modest velocity",
+      "adult_height_effect": "GH +0.78 SDS (5.0 cm); estrogen-alone small; GH+estrogen best",
+      "surrogate_translated": "YES",
+      "direction": "+",
+      "source_id": "PMID 21449786",
+      "notes": "Ross 2011 NEJM; ultra-low-dose estrogen adds alongside GH"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E13",
+      "subject": "Estrogen (low-dose)",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "Turner, RCT (adjunct)",
+      "effect_size": "adjunct to GH",
+      "source_id": "PMID 21449786",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 21449786"
+}

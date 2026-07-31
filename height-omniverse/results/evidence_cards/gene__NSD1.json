@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "NSD1",
+  "name": "nuclear receptor binding SET domain protein 1",
+  "ensembl": "ENSG00000165671",
+  "monogenic_stature_evidence": "Sotos overgrowth",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 12687502"
+}

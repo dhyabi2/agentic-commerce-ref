@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "ESR1",
+  "name": "estrogen receptor 1",
+  "ensembl": "ENSG00000091831",
+  "monogenic_stature_evidence": "tall (204 cm), unfused epiphyses",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8090165"
+}

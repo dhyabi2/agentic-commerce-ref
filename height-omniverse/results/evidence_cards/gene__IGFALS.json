@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "IGFALS",
+  "name": "insulin like growth factor binding protein acid labile subunit",
+  "ensembl": "ENSG00000099769",
+  "monogenic_stature_evidence": "ALS deficiency; very low IGF-1/IGFBP-3",
+  "direction_of_effect": "shorter (mild)",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 21396577"
+}

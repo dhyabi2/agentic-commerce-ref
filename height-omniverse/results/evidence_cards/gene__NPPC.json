@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "NPPC",
+  "name": "natriuretic peptide C",
+  "ensembl": "ENSG00000163273",
+  "monogenic_stature_evidence": "overgrowth, Marfanoid",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 17373680"
+}

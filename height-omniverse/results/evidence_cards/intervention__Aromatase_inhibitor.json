@@ -1,0 +1,68 @@
+{
+  "type": "intervention",
+  "name": "Aromatase inhibitor",
+  "aliases": "letrozole; anastrozole",
+  "modality": "small molecule",
+  "target": "aromatase (CYP19)",
+  "action": "inhibitor (blocks estrogen synthesis)",
+  "approval_status": "approved oncology; OFF-LABEL short stature",
+  "route": "oral daily",
+  "pk": "letrozole t1/2 ~2 d (UNVERIFIED)",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Letrozole (aromatase inhibitor)",
+      "population": "short/ISS boys",
+      "design": "double-blind RCT 2 yr",
+      "n": "31",
+      "surrogate_effect": "PAH +5.9 cm; HtSDS-for-BA +0.7",
+      "adult_height_effect": "NOT MEASURED (PAH only)",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "+",
+      "source_id": "PMID 16189252",
+      "notes": "Hero 2005; PAH surrogate only"
+    },
+    {
+      "intervention": "Letrozole (aromatase inhibitor)",
+      "population": "ISS boys",
+      "design": "RCT to ADULT height",
+      "n": "20",
+      "surrogate_effect": "(PAH gain at baseline)",
+      "adult_height_effect": "AH 164.8 vs 163.7 cm; P=0.49 NS",
+      "surrogate_translated": "NO",
+      "direction": "0",
+      "source_id": "PMID 31024444",
+      "notes": "Varimo/Hero 2019; PAH gain did NOT translate; vertebral deformities noted"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E3",
+      "subject": "Aromatase inhibitor (letrozole)",
+      "predicate": "changes",
+      "object": "predicted adult height",
+      "direction": "+",
+      "context": "ISS boys, RCT",
+      "effect_size": "PAH +5.9 cm",
+      "source_id": "PMID 16189252",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": "E4"
+    },
+    {
+      "edge_id": "E4",
+      "subject": "Aromatase inhibitor (letrozole)",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "0",
+      "context": "ISS boys, RCT to AH",
+      "effect_size": "NS (P=0.49)",
+      "source_id": "PMID 31024444",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": "E3"
+    }
+  ],
+  "source_provenance": "PMID 16189252; 31024444"
+}

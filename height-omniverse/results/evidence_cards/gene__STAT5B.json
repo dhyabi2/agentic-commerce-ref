@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "STAT5B",
+  "name": "signal transducer and activator of transcription 5B",
+  "ensembl": "ENSG00000173757",
+  "monogenic_stature_evidence": "GH insensitivity + immunodeficiency",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 13679528"
+}

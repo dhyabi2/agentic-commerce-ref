@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "STC2",
+  "name": "stanniocalcin 2",
+  "ensembl": "ENSG00000113739",
+  "monogenic_stature_evidence": "height-increasing coding variant",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 28146470"
+}

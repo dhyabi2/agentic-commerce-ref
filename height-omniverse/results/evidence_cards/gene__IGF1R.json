@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "IGF1R",
+  "name": "insulin like growth factor 1 receptor",
+  "ensembl": "ENSG00000140443",
+  "monogenic_stature_evidence": "SGA/IUGR, postnatal short",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 14657428"
+}

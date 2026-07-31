@@ -1,0 +1,27 @@
+{
+  "type": "intervention",
+  "name": "Long-acting GH",
+  "aliases": "lonapegsomatropin; somatrogon; somapacitan",
+  "modality": "hormone (modified GH)",
+  "target": "GH receptor",
+  "action": "agonist",
+  "approval_status": "approved (pediatric GHD)",
+  "route": "SC weekly",
+  "pk": "weekly; t1/2 NOT RETRIEVED",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Long-acting GH",
+      "population": "pediatric GHD",
+      "design": "RCT/NMA 52-wk",
+      "n": "",
+      "surrogate_effect": "AHV/HtSDS ~ daily GH",
+      "adult_height_effect": "NOT RETRIEVED (no final-height yet)",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "0",
+      "source_id": "PMC11480202",
+      "notes": "approved; final-height not yet published"
+    }
+  ],
+  "evidence_edges": [],
+  "source_provenance": "PMC11480202"
+}

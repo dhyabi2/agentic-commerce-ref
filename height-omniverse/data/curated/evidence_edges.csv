@@ -1,0 +1,49 @@
+edge_id,subject,predicate,object,direction,context,effect_size,source_id,evidence_tier,directness,confidence,conflicting_edges
+E1,Recombinant GH,changes,attained adult height,+,"ISS, RCT",+0.51 SDS (3.7 cm),PMID 15240584,T1,high,moderate,
+E2,Recombinant GH,changes,attained adult height,+,"GHD, registry",+1.7 SDS,PMID 10102057,T1,high,high,
+E3,Aromatase inhibitor (letrozole),changes,predicted adult height,+,"ISS boys, RCT",PAH +5.9 cm,PMID 16189252,T1,high,moderate,E4
+E4,Aromatase inhibitor (letrozole),changes,attained adult height,0,"ISS boys, RCT to AH",NS (P=0.49),PMID 31024444,T1,high,moderate,E3
+E5,GnRH agonist,changes,attained adult height,+,early-onset CPP,AH > initial PAH ~3.9 cm,PMC5752503,T1,med,moderate,E6
+E6,GnRH agonist,changes,attained adult height,0,normal-puberty ISS,small; not recommended,PMID 12621135,T1,high,moderate,E5
+E7,Oxandrolone (+GH),changes,attained adult height,+,"Turner, RCT",+4.6 cm,PMID 21493672,T1,high,moderate,
+E8,Vosoritide,changes,annualized growth velocity,+,"achondroplasia, RCT",+1.57 cm/yr,PMID 32891212,T3,high,high,E9
+E9,Vosoritide,changes,attained adult height,?,achondroplasia,no controlled endpoint,PMID 32891212,T8,low,low,E8
+E10,Infigratinib,changes,annualized growth velocity,+,"achondroplasia, RCT",+2.10 cm/yr,PMID 42370681,T3,high,moderate,
+E11,Navepegritide,changes,annualized growth velocity,+,"achondroplasia, RCT",+1.96 cm/yr,PMID 41247754,T3,high,moderate,
+E12,Mecasermin (rhIGF-1),changes,near-final height,+,primary IGF-1 deficiency,+0.9 SDS (partial),PMID 40626687,T1,med,moderate,
+E13,Estrogen (low-dose),changes,attained adult height,+,"Turner, RCT (adjunct)",adjunct to GH,PMID 21449786,T1,high,moderate,
+E14,Levothyroxine,changes,attained adult height,+,early-treated hypothyroidism,normal if early,PMID 11580992,T1,high,moderate,
+E15,Nutrition/energy supplementation,changes,attained adult height,0,stunting after ~2 yr,no robust recovery,PMC7360439,T1,med,moderate,
+E16,Abaloparatide,changes,mandibular condyle length,+,"adolescent rat, condyle (secondary cartilage)",+1.34 mm (local),PMID 37727017,T6,low,moderate,
+E17,Abaloparatide,changes,conventional long-bone final length,?,no study exists,not identified,companion analysis,T8,none,low,
+G1,SHOX,altered-activity-changes,adult height,shorter,LoF/haploinsufficiency; developmental+postnatal,Leri-Weill dyschondrosteosis / ISS; mesomelic,PMID 20301394,T5,high (human genetics),moderate,
+G2,ACAN,altered-activity-changes,adult height,shorter,LoF (het); growth-plate; postnatal cessation,"short + ADVANCED bone age, early OA",PMID 27870580,T5,high (human genetics),moderate,
+G3,NPR2,altered-activity-changes,adult height,shorter,LoF (biallelic); developmental+postnatal,acromesomelic dysplasia Maroteaux; het short,PMID 15146390,T5,high (human genetics),moderate,
+G4,NPR2,altered-activity-changes,adult height,taller,GoF; developmental+postnatal,skeletal overgrowth/tall,PMID 22870295,T5,high (human genetics),moderate,
+G5,NPPC,altered-activity-changes,adult height,taller,overexpression/dup; developmental+postnatal,"overgrowth, Marfanoid",PMID 17373680,T5,high (human genetics),moderate,
+G6,NPR3,altered-activity-changes,adult height,taller,LoF (biallelic); developmental+postnatal,tall + scoliosis,PMID 40171685,T5,high (human genetics),moderate,
+G7,FGFR3,altered-activity-changes,adult height,shorter,GoF (G380R); developmental+postnatal,achondroplasia,PMID 7913883,T5,high (human genetics),moderate,
+G8,FGFR3,altered-activity-changes,adult height,shorter,GoF (N540K); developmental+postnatal,hypochondroplasia,PMID 8589686,T5,high (human genetics),moderate,
+G9,FGFR3,altered-activity-changes,adult height,taller,LoF (R621H); developmental+postnatal,CATSHL: tall stature,PMID 17033969,T5,high (human genetics),moderate,
+G10,IHH,altered-activity-changes,adult height,shorter (digits),LoF (missense); developmental (digit patterning),brachydactyly type A1,PMID 20024692,T5,high (human genetics),moderate,
+G11,GHR,altered-activity-changes,adult height,shorter,LoF; postnatal,Laron syndrome; low IGF-1,PMID 8488849,T5,high (human genetics),moderate,
+G12,STAT5B,altered-activity-changes,adult height,shorter,LoF; postnatal,GH insensitivity + immunodeficiency,PMID 13679528,T5,high (human genetics),moderate,
+G13,IGF1,altered-activity-changes,adult height,shorter,LoF (deletion); prenatal+postnatal,"IUGR + postnatal failure, deafness",PMID 8857020,T5,high (human genetics),moderate,
+G14,IGF1R,altered-activity-changes,adult height,shorter,LoF (het); prenatal+postnatal,"SGA/IUGR, postnatal short",PMID 14657428,T5,high (human genetics),moderate,
+G15,IGFALS,altered-activity-changes,adult height,shorter (mild),LoF; postnatal,ALS deficiency; very low IGF-1/IGFBP-3,PMID 21396577,T5,high (human genetics),moderate,
+G16,PAPPA2,altered-activity-changes,adult height,shorter,LoF; postnatal,progressive growth failure; high total/low free IGF-1,PMID 26902202,T5,high (human genetics),moderate,
+G17,STC2,altered-activity-changes,adult height,taller,rare coding (inhibits PAPP-A); postnatal,height-increasing coding variant,PMID 28146470,T5,high (human genetics),moderate,
+G18,CYP19A1,altered-activity-changes,adult height,taller,LoF (aromatase deficiency); postnatal (fusion boundary),"tall, UNFUSED epiphyses, continued growth",PMID 8530621,T5,high (human genetics),moderate,
+G19,ESR1,altered-activity-changes,adult height,taller,LoF (estrogen resistance); postnatal (fusion boundary),"tall (204 cm), unfused epiphyses",PMID 8090165,T5,high (human genetics),moderate,
+G20,DNMT3A,altered-activity-changes,adult height,taller,LoF (germline het); developmental+postnatal,Tatton-Brown-Rahman overgrowth,PMID 27701732,T5,high (human genetics),moderate,
+G21,NSD1,altered-activity-changes,adult height,taller,LoF/haploinsufficiency; prenatal+postnatal,Sotos overgrowth,PMID 12687502,T5,high (human genetics),moderate,
+G22,EZH2,altered-activity-changes,adult height,taller,LoF (het); prenatal+postnatal,Weaver overgrowth,PMID 24214728,T5,high (human genetics),moderate,
+G23,GPC3,altered-activity-changes,adult height,taller,LoF (X-linked); prenatal+postnatal,Simpson-Golabi-Behmel overgrowth,PMID 8589713,T5,high (human genetics),moderate,
+G24,IGF2,altered-activity-changes,adult height,shorter,LoF (paternal); prenatal (imprinted),Silver-Russell growth restriction,PMID 26154720,T5,high (human genetics),moderate,
+M1,PEMF (28Hz/2mT),changes,growth-plate thickness,+,immature rat,+25.6%,DOI 10.3390/app11167571,T3,med,low,M2
+M2,LIPUS,changes,final long-bone length,0,young rat,no effect,PMID 9651966,T2,high,moderate,M1
+M3,Static compression,changes,longitudinal growth rate,-,immature (Hueter-Volkmann),slows,PMID 16705695,T3,high,moderate,
+M4,Distraction/tension,changes,longitudinal growth rate,+,immature,accelerates,PMID 16705695,T3,high,moderate,
+M5,Jumping exercise,changes,24-wk height gain (velocity),+,prepubertal children,+1.7 cm/24wk,PMID 41233903,T3,med,moderate,
+M6,HT042 (botanical),changes,24-wk height gain (velocity),+,short children RCT,+0.29 cm,PMID 29130588,T3,med,moderate,
+M7,Zinc,changes,linear growth,+,deficiency-risk children,+0.13 SMD,PMID 21501440,T1,med,low,

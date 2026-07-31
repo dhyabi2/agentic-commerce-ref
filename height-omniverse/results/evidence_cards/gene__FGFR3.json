@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "FGFR3",
+  "name": "fibroblast growth factor receptor 3",
+  "ensembl": "ENSG00000068078",
+  "monogenic_stature_evidence": "CATSHL: tall stature",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 7913883; PMID 8589686; PMID 17033969"
+}

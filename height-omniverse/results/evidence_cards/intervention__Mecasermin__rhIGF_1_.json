@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Mecasermin (rhIGF-1)",
+  "aliases": "",
+  "modality": "peptide hormone",
+  "target": "IGF-1 receptor",
+  "action": "agonist",
+  "approval_status": "approved (severe primary IGF-1 deficiency)",
+  "route": "SC BID",
+  "pk": "short t1/2 (BID)",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Mecasermin (rhIGF-1)",
+      "population": "severe primary IGF-1 deficiency / Laron",
+      "design": "registry to near-adult height",
+      "n": "102",
+      "surrogate_effect": "velocity gain",
+      "adult_height_effect": "NAH HtSDS gain +0.9 (prepubertal-naive +1.4); Laron 10.5% normal",
+      "surrogate_translated": "PARTIAL",
+      "direction": "+",
+      "source_id": "PMID 40626687",
+      "notes": "disease context; residual deficit esp. Laron"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E12",
+      "subject": "Mecasermin (rhIGF-1)",
+      "predicate": "changes",
+      "object": "near-final height",
+      "direction": "+",
+      "context": "primary IGF-1 deficiency",
+      "effect_size": "+0.9 SDS (partial)",
+      "source_id": "PMID 40626687",
+      "evidence_tier": "T1",
+      "directness": "med",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 40626687"
+}

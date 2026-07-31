@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "NPR3",
+  "name": "natriuretic peptide receptor 3",
+  "ensembl": "ENSG00000113389",
+  "monogenic_stature_evidence": "tall + scoliosis",
+  "direction_of_effect": "taller",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 40171685"
+}

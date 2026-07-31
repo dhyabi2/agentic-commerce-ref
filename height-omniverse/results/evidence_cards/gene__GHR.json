@@ -1,0 +1,10 @@
+{
+  "type": "gene",
+  "symbol": "GHR",
+  "name": "growth hormone receptor",
+  "ensembl": "ENSG00000112964",
+  "monogenic_stature_evidence": "Laron syndrome; low IGF-1",
+  "direction_of_effect": "shorter",
+  "growthplate_zone_evidence": "",
+  "source_provenance": "HGNC complete set (retrieved 2026-07-31); PMID 8488849"
+}

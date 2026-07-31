@@ -1,0 +1,43 @@
+{
+  "type": "intervention",
+  "name": "Recombinant GH (somatropin)",
+  "aliases": "somatropin",
+  "modality": "hormone (recombinant protein)",
+  "target": "GH receptor",
+  "action": "agonist (JAK/STAT->IGF-1)",
+  "approval_status": "approved (ISS/GHD/Turner)",
+  "route": "SC daily",
+  "pk": "short t1/2 (hrs; NOT RETRIEVED)",
+  "surrogate_vs_final_height": [],
+  "evidence_edges": [
+    {
+      "edge_id": "E1",
+      "subject": "Recombinant GH",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "ISS, RCT",
+      "effect_size": "+0.51 SDS (3.7 cm)",
+      "source_id": "PMID 15240584",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    },
+    {
+      "edge_id": "E2",
+      "subject": "Recombinant GH",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "+",
+      "context": "GHD, registry",
+      "effect_size": "+1.7 SDS",
+      "source_id": "PMID 10102057",
+      "evidence_tier": "T1",
+      "directness": "high",
+      "confidence": "high",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 15240584; 10102057"
+}

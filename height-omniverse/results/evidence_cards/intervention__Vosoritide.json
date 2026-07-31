@@ -1,0 +1,56 @@
+{
+  "type": "intervention",
+  "name": "Vosoritide",
+  "aliases": "BMN-111",
+  "modality": "peptide (CNP analogue)",
+  "target": "NPR-B (NPR2)",
+  "action": "agonist (inhibits FGFR3/MAPK)",
+  "approval_status": "approved (achondroplasia)",
+  "route": "SC daily",
+  "pk": "short t1/2 (engineered)",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Vosoritide",
+      "population": "achondroplasia",
+      "design": "phase-3 double-blind RCT 52 wk",
+      "n": "121",
+      "surrogate_effect": "AGV +1.57 cm/yr (P<0.0001)",
+      "adult_height_effect": "NOT in RCT; ~13.6 cm/8 yr vs natural history (press, non-peer-reviewed)",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "+",
+      "source_id": "PMID 32891212",
+      "notes": "approved; no controlled adult-height endpoint published"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E8",
+      "subject": "Vosoritide",
+      "predicate": "changes",
+      "object": "annualized growth velocity",
+      "direction": "+",
+      "context": "achondroplasia, RCT",
+      "effect_size": "+1.57 cm/yr",
+      "source_id": "PMID 32891212",
+      "evidence_tier": "T3",
+      "directness": "high",
+      "confidence": "high",
+      "conflicting_edges": "E9"
+    },
+    {
+      "edge_id": "E9",
+      "subject": "Vosoritide",
+      "predicate": "changes",
+      "object": "attained adult height",
+      "direction": "?",
+      "context": "achondroplasia",
+      "effect_size": "no controlled endpoint",
+      "source_id": "PMID 32891212",
+      "evidence_tier": "T8",
+      "directness": "low",
+      "confidence": "low",
+      "conflicting_edges": "E8"
+    }
+  ],
+  "source_provenance": "PMID 32891212"
+}

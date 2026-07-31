@@ -1,0 +1,25 @@
+gene,variant_class,activity_change,height_direction,dev_vs_postnatal,pathway,key_phenotype,source_id
+SHOX,LoF/haploinsufficiency,down,shorter,developmental+postnatal,growth-plate homeobox TF,Leri-Weill dyschondrosteosis / ISS; mesomelic,PMID 20301394
+ACAN,LoF (het),down,shorter,growth-plate; postnatal cessation,aggrecan matrix,"short + ADVANCED bone age, early OA",PMID 27870580
+NPR2,LoF (biallelic),down,shorter,developmental+postnatal,CNP->NPR2/cGMP,acromesomelic dysplasia Maroteaux; het short,PMID 15146390
+NPR2,GoF,up,taller,developmental+postnatal,excess cGMP,skeletal overgrowth/tall,PMID 22870295
+NPPC,overexpression/dup,up,taller,developmental+postnatal,CNP ligand -> NPR2,"overgrowth, Marfanoid",PMID 17373680
+NPR3,LoF (biallelic),up (reduced CNP clearance),taller,developmental+postnatal,loss of CNP clearance receptor,tall + scoliosis,PMID 40171685
+FGFR3,GoF (G380R),up (constitutive),shorter,developmental+postnatal,FGFR3 inhibits proliferation,achondroplasia,PMID 7913883
+FGFR3,GoF (N540K),up,shorter,developmental+postnatal,FGFR3,hypochondroplasia,PMID 8589686
+FGFR3,LoF (R621H),down,taller,developmental+postnatal,loss of growth-plate braking,CATSHL: tall stature,PMID 17033969
+IHH,LoF (missense),down,shorter (digits),developmental (digit patterning),Indian hedgehog,brachydactyly type A1,PMID 20024692
+GHR,LoF,down,shorter,postnatal,GH receptor (systemic),Laron syndrome; low IGF-1,PMID 8488849
+STAT5B,LoF,down,shorter,postnatal,GHR->STAT5B->IGF1,GH insensitivity + immunodeficiency,PMID 13679528
+IGF1,LoF (deletion),down,shorter,prenatal+postnatal,IGF-1 ligand (systemic),"IUGR + postnatal failure, deafness",PMID 8857020
+IGF1R,LoF (het),down,shorter,prenatal+postnatal,IGF-1 receptor (systemic),"SGA/IUGR, postnatal short",PMID 14657428
+IGFALS,LoF,down,shorter (mild),postnatal,acid-labile subunit,ALS deficiency; very low IGF-1/IGFBP-3,PMID 21396577
+PAPPA2,LoF,down (reduced free IGF-1),shorter,postnatal,protease liberating IGF-1 from IGFBP,progressive growth failure; high total/low free IGF-1,PMID 26902202
+STC2,rare coding (inhibits PAPP-A),up (more free IGF-1),taller,postnatal,stanniocalcin-2 inhibits PAPP-A,height-increasing coding variant,PMID 28146470
+CYP19A1,LoF (aromatase deficiency),down (estrogen synthesis),taller,postnatal (fusion boundary),estrogen biosynthesis (systemic),"tall, UNFUSED epiphyses, continued growth",PMID 8530621
+ESR1,LoF (estrogen resistance),down (estrogen action),taller,postnatal (fusion boundary),ERalpha in growth plate,"tall (204 cm), unfused epiphyses",PMID 8090165
+DNMT3A,LoF (germline het),down (methylation),taller,developmental+postnatal,DNA methyltransferase,Tatton-Brown-Rahman overgrowth,PMID 27701732
+NSD1,LoF/haploinsufficiency,down,taller,prenatal+postnatal,histone methyltransferase,Sotos overgrowth,PMID 12687502
+EZH2,LoF (het),down,taller,prenatal+postnatal,PRC2 H3K27 methyltransferase,Weaver overgrowth,PMID 24214728
+GPC3,LoF (X-linked),down,taller,prenatal+postnatal,glypican-3 (IGF2/hedgehog),Simpson-Golabi-Behmel overgrowth,PMID 8589713
+IGF2,LoF (paternal),down,shorter,prenatal (imprinted),imprinted IGF-2 ligand,Silver-Russell growth restriction,PMID 26154720

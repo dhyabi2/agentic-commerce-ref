@@ -1,0 +1,27 @@
+{
+  "type": "intervention",
+  "name": "TYRA-300",
+  "aliases": "dabogratinib",
+  "modality": "small-molecule TKI",
+  "target": "FGFR3-selective",
+  "action": "inhibitor",
+  "approval_status": "investigational (Ph2)",
+  "route": "oral",
+  "pk": "NOT RETRIEVED",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "TYRA-300 (FGFR3i)",
+      "population": "achondroplasia",
+      "design": "Ph2 open-label (BEACH301)",
+      "n": "dosing from 2025-08",
+      "surrogate_effect": "NOT RETRIEVED (no data yet)",
+      "adult_height_effect": "NOT RETRIEVED",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "0",
+      "source_id": "NCT BEACH301",
+      "notes": "first child dosed 2025-08-21; readout expected 2H2026"
+    }
+  ],
+  "evidence_edges": [],
+  "source_provenance": "NCT BEACH301"
+}

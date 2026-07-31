@@ -1,0 +1,42 @@
+{
+  "type": "intervention",
+  "name": "Infigratinib",
+  "aliases": "BGJ398; Truseltiq",
+  "modality": "small-molecule TKI",
+  "target": "FGFR1-3",
+  "action": "inhibitor",
+  "approval_status": "investigational (onc-approved)",
+  "route": "oral daily",
+  "pk": "t1/2 NOT RETRIEVED",
+  "surrogate_vs_final_height": [
+    {
+      "intervention": "Infigratinib (FGFR3i)",
+      "population": "achondroplasia",
+      "design": "Ph2 dose-finding + Ph3 RCT",
+      "n": "Ph3 ~110",
+      "surrogate_effect": "Ph3 AHV +2.10 cm/yr vs placebo",
+      "adult_height_effect": "NOT RETRIEVED (none)",
+      "surrogate_translated": "UNKNOWN",
+      "direction": "+",
+      "source_id": "PMID 42370681",
+      "notes": "PROPEL; velocity only; highest RCT AHV delta to date"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "edge_id": "E10",
+      "subject": "Infigratinib",
+      "predicate": "changes",
+      "object": "annualized growth velocity",
+      "direction": "+",
+      "context": "achondroplasia, RCT",
+      "effect_size": "+2.10 cm/yr",
+      "source_id": "PMID 42370681",
+      "evidence_tier": "T3",
+      "directness": "high",
+      "confidence": "moderate",
+      "conflicting_edges": ""
+    }
+  ],
+  "source_provenance": "PMID 42370681"
+}
