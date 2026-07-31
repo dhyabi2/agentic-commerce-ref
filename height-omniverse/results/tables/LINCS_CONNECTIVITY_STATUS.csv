@@ -1,0 +1,2 @@
+step,status,resource,method,caveat,reproducible_by
+L1000 connectivity,externally_blocked (sig-matrix ~50GB),GSE92742 / GSE70138 (Broad LINCS L1000),weighted connectivity of this UP/DOWN signature vs L1000 perturbagen signatures,most L1000 lines are NOT growth-plate chondrocytes; cell-context distance must be scored; hypothesis-generation only,download L1000 Level5 sig-matrix + cmapPy; score connectivity; consensus across cell/dose/time
