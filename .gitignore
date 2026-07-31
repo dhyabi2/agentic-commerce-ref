@@ -43,3 +43,5 @@ coverage/
 # HDAC4 analysis: large raw/processed single-cell data (provenance in docs/DATA_PROVENANCE.md)
 data/raw/
 data/processed/
+.venv/
+__pycache__/
