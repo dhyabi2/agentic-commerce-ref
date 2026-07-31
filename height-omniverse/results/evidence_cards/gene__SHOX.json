@@ -5,13 +5,18 @@
   "ensembl": "ENSG00000185960",
   "genetics_direction": "shorter",
   "monogenic_phenotype": "Leri-Weill dyschondrosteosis / ISS; mesomelic",
-  "zonal_topology": "no qualifying evidence located after 3 completed search round(s) (or absent in mouse atlas)",
-  "compounds": "no qualifying evidence located after 3 completed search round(s)",
+  "zonal_topology": "no qualifying evidence located after 4 completed search round(s) (or absent in mouse atlas)",
+  "compounds": "no qualifying evidence located after 4 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "42077444",
       "title": "shox/shox2 deficiency with fgfr3 GoF and natriuretic peptides",
       "year": "2026"
+    },
+    {
+      "pmid": "19926713",
+      "title": "Effectiveness of the combined recombinant human growth hormone and gonadotropin-releasing hormone analog therapy in pubertal patients with short stature due to SHOX deficiency",
+      "year": "2010"
     }
   ],
   "dual_evidence": {

@@ -8,7 +8,7 @@
 - achondroplasia (phase-3 RCT (ApproaCH) 52 wk): surrogate=AGV 5.84 vs 3.88 cm/yr; adult height=NOT RETRIEVED (none); **translated=UNKNOWN** [PMID 41247754]
 
 ## Interactions (pathway convergence; blank=untested, NOT safe/additive)
-- no qualifying evidence located after 3 completed search round(s)
+- no qualifying evidence located after 4 completed search round(s)
 
 _Provenance: PMID 41247754_
 

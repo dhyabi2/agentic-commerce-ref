@@ -10,8 +10,14 @@
     "specificity": 0.43,
     "gp_expression": 0.89
   },
-  "compounds": "no qualifying evidence located after 3 completed search round(s)",
-  "literature_mentions": "no qualifying evidence located after 3 completed search round(s)",
+  "compounds": "no qualifying evidence located after 4 completed search round(s)",
+  "literature_mentions": [
+    {
+      "pmid": "27897169",
+      "title": "EZH1 and EZH2 promote skeletal growth by repressing inhibitors of chondrocyte proliferation and hypertrophy",
+      "year": "2016"
+    }
+  ],
   "dual_evidence": {
     "gene": "EZH2",
     "height_direction": "taller",

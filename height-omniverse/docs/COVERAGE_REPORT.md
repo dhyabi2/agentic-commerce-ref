@@ -19,20 +19,20 @@ HGNC complete set, Crossref/DOI, OMIM (via literature). Query/round logs:
 | genes with direction-of-effect | 21 | verified PMIDs |
 | genome-wide zonal atlas rows | 98,788 | 24,697 genes × 4 states (GSE288529) |
 | interventions | 14 | verified |
-| literature studies (screened) | 62 incl / 15 excl | PRISMA 387→81→62 |
+| literature studies (screened) | 274 incl | 4 citation rounds; PRISMA ~1200 identified |
 | surrogate→final-height calibration | 17 | crown jewel |
 | compound–target activities | 275 fetched / 19 named | ChEMBL, 10 targets w/ data |
 | evidence edges | 48 | knowledge graph |
 | interaction pairs | 91 (14 non-trivial) | pathway convergence |
 | dual-evidence high-priority genes | 11 | ≥3 modes |
-| QA tests | 34 passing | endpoint/fusion/dedup/no-reco |
+| QA tests | 40 passing | +saturation acceptance |
 
 ## Per-category saturation
 
 | category | status | basis |
 |---|---|---|
 | Schema/QA integrity | **saturated** | 34 tests; migration hardened; all edges/studies source-linked |
-| Human final-height interventions (endocrine) | **partially saturated** | 3 citation rounds run; **212 included studies**; 4/15 query categories saturated (GH/ISS, vosoritide, physeal distraction, resting-zone stem cell → round-3 = 0 new); 11 deep-literature categories (esp. NPR2/CNP, growth-plate biology, ACAN) still yield new items → round 4+ |
+| Human final-height interventions (endocrine) | **partially saturated** | 4 citation rounds run; **274 included studies**; 5/15 categories saturated; clinical/final-height categories converged; Tier-7/8 mechanism categories (NPR2/CNP, growth-plate biology, ACAN, limb-lengthening) capped at 4 rounds with open residual logged (docs/SATURATION_ANALYSIS.md) |
 | Surrogate→final-height calibration | **not saturated** (rich) | 17 curated; velocity-only class (vosoritide/CNP/FGFR3i) growing |
 | Human height genetics (monogenic/allelic) | **not saturated** | 21 verified genes + GWAS anchors; full GWAS-sumstat fine-mapping not run |
 | GWAS common-variant fine-mapping / MR / LDSC-SEG | **externally blocked (compute/data)** | needs LD panels + full sumstats; enrichment done on curated set (perm p=0.023) |
@@ -42,7 +42,7 @@ HGNC complete set, Crossref/DOI, OMIM (via literature). Query/round logs:
 | LINCS/CMap perturbational | **externally blocked (size)** | ~50 GB L1000; reproducible fetch script stubbed; not ingested |
 | Regulatory/patent/grey full-text | **not saturated / partially blocked** | abstracts captured; FDA/EMA PDFs not text-extractable this pass |
 | Spatial reaction-diffusion model | **saturated (model class)** | runs; mass-conservation + gradient-recovery tests pass |
-| Agent-based lineage model | **not built (partial)** | ODE twin + spatial RD cover dynamics; dedicated ABM deferred (backlog I1) |
+| Agent-based lineage model | **built** | neutral drift -> monoclonality (Newton 2019); reserve-depletion -> fusion |
 | Finite-element mechanical model | **externally blocked** | FEniCSx not installed; spatial RD + Hueter-Volkmann evidence serve as surrogate (backlog J1) |
 | Mechanical final-length (human) | **structurally unknowable (currently)** | no human mechanical final-length datum exists (LIPUS null; PEMF=thickness) |
 

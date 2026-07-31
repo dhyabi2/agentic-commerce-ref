@@ -238,3 +238,192 @@ pmid,title,category,reason
 34456977,Retrospective Diagnosis of a Novel ACAN Pathogenic Variant in a Family With Short Stature: A Case Report and Review of the Literature.,Q15,review/guideline/perspective
 34265844,Highly accurate protein structure prediction with AlphaFold.,Q15,methods/tool/PK
 34187405,Prenatal diagnosis of a novel pathogenic variation in the ACAN gene presenting with isolated shortening of fetal long bones in the second trimester of gestation: a case report.,Q15,single_case_descriptive
+41347128,Charting the growth of idiopathic short stature research: a 32-year bibliometric study of global advances,Q2,bibliometric
+40928549,"Atypical ""opened-bottle"" proximal tibial fractures in young male patients with growth hormone and aromatase inhibitor treatment: case series",Q2,off-topic(fracture case)
+39857834,GH Therapy in Non-Growth Hormone-Deficient Children,Q2,review
+39696162,Aromatase inhibitors for short stature in male children and adolescents treated with growth hormone: a meta-analysis of randomized controlled trials,Q2,meta-analysis
+38436307,[Pharmacological therapies for height improvement in pubertal children with short stature],Q2,review
+38068932,The Effects of Natural Product-Derived Extracts for Longitudinal Bone Growth: An Overview of In Vivo Experiments,Q2,review(in-vivo overview)
+38040920,Aromatase inhibitors: a useful additional therapeutic option for slowing down advanced bone age in boys with growth hormone deficiency,Q2,review/opinion
+28514006,The FELS method of assessing the skeletal maturity of the hand-wrist,Q2,methods(bone-age)
+25828359,Common normal variants of pediatric vertebral development that mimic fractures: a pictorial review from a national longitudinal bone health study,Q2,off-topic(vertebral variants)
+25278883,Incidental findings on magnetic resonance imaging of the spine in the asymptomatic pediatric population: a systematic review,Q2,off-topic/systematic-review(spine MRI)
+24776783,Safety and efficacy of oxandrolone in growth hormone-treated girls with Turner syndrome: evidence from recent studies and recommendations for use,Q2,review
+24344006,Comparative efficacy study of 5-year letrozole or anastrozole in postmenopausal hormone receptor-positive early breast cancer,Q2,off-topic(breast cancer)
+21917867,Revised reference curves for bone mineral content and areal bone mineral density according to age and sex for black and non-black children: results of the bone mineral density in childhood study,Q2,reference-data/methods
+21555689,"Randomized phase II neoadjuvant comparison between letrozole, anastrozole, and exemestane for postmenopausal women with estrogen receptor-rich stage 2 to 3 breast cancer: clinical and biomarker outcomes and predictive value of the baseline PAM50-based intrinsic subtype--ACOSOG Z1031",Q2,off-topic(breast cancer)
+20200972,Vertebral morphology in aromatase inhibitor-treated males with idiopathic short stature or constitutional delay of puberty,Q2,off-topic(vertebral morphology/safety)
+19470631,Pharmacokinetics and pharmacodynamics of anastrozole in pubertal boys with recent-onset gynecomastia,Q2,off-topic(gynecomastia PK/PD)
+41127510,Efficacy of combined gonadotropin-releasing hormone analogue and growth hormone therapy in girls with central precocious puberty: a systematic review and meta-analysis,Q2,meta-analysis
+37973253,"Central precocious puberty: a review of diagnosis, treatment, and outcomes",Q2,review
+37835867,Precision and Accuracy of Radiological Bone Age Assessment in Children among Different Ethnic Groups: A Systematic Review,Q2,systematic-review(bone age)
+37643900,Gonadotropin-Releasing Hormone Agonist Therapy and Longitudinal Bone Mineral Density in Congenital Adrenal Hyperplasia,Q2,off-topic(BMD endpoint)
+37608608,Biomarkers in congenital adrenal hyperplasia,Q2,review
+36843618,Monitoring treatment in pediatric patients with 21-hydroxylase deficiency,Q2,review
+32616876,EMQN best practice guidelines for molecular genetic testing and reporting of 21-hydroxylase deficiency,Q2,guideline
+31390647,Aromatase Inhibitor as Treatment for Severely Advanced Bone Age in Congenital Adrenal Hyperplasia: A Case Report,Q2,case-report
+41762373,Pathways to Facilitate Early Recognition and Diagnosis of Hypochondroplasia,Q4,review
+35793999,Clinical management and emerging therapies of FGFR3-related skeletal dysplasia in childhood,Q4,review
+33219737,Skeletal dysplasias in Latin America,Q4,review/descriptive
+31976144,Clinical and Radiologic Evaluation of an Individual with Hypochondroplasia and a Novel FGFR3 Mutation,Q4,case-report
+31888683,The evolving therapeutic landscape of genetic skeletal disorders,Q4,review
+40821249,Vosoritide (Voxzogo) for Achondroplasia: A Review of Clinical and Real-World Evidence,Q4,review
+40676599,Integrating vosoritide therapy with limb surgery in paediatric patients with achondroplasia: real-life experiences,Q4,case-series(surgery focus)
+40256430,Advances in the mechanism and therapies of achondroplasia,Q4,review
+40243822,The Potential of Peptide-Based Inhibitors in Disrupting Protein-Protein Interactions for Targeted Cancer Therapy,Q4,off-topic(cancer)
+40189669,The genetic basis of human height,Q4,review
+40105070,[Significance and considerations of early diagnosis and treatment for improving height outcomes in children with achondroplasia],Q4,review/commentary
+40016839,"Clinical and economic burden of achondroplasia in the United States: results from a retrospective, observational study",Q4,off-topic(economic burden)
+39907899,Considerations for Anthropometry Specific to People with Disproportionate Short Stature,Q4,methods(anthropometry)
+39757323,International consensus guidelines on the implementation and monitoring of vosoritide therapy in individuals with achondroplasia,Q4,guideline
+39669232,Vosoritide approved for treatment of linear growth in pediatric patients with achondroplasia: A therapeutics bulletin of the American College of Medical Genetics and Genomics (ACMG),Q4,review/therapeutics-brief
+33761804,"Rationale, design, and methods of a randomized, controlled, open-label clinical trial with open-label extension to investigate the safety of vosoritide in infants, and young children with achondroplasia at risk of requiring cervicomedullary decompression surgery",Q4,methods(trial design)
+17630040,Achondroplasia,Q4,review
+40564670,Long-Term Efficacy and Safety of Leuprorelin Treatment in Children with Central Precocious Puberty: A Systematic Review and Meta-Analysis,Q5,systematic-review
+38707434,Zhibai dihuang pill (ZBDH) exhibits therapeutic effects on idiopathic central sexual precocity in rats by modulating the gut microflora,Q5,"off-topic(rat puberty mechanism,no growth endpoint)"
+38185120,The Effect of GnRHa Treatment on Body Mass Index in Central Precocious Puberty: A Systematic Review and Meta-Analysis,Q5,meta-analysis
+37015774,Commentary on &quot;Effect of gonadotropin-releasing hormone agonist treatment on near final height in girls with central precocious puberty and early puberty&quot,Q5,commentary
+36268040,Gonadotropin-releasing hormone analog therapies for children with central precocious puberty in the United States,Q5,descriptive/utilization
+34991297,"Commentary on ""Effects of gonadotropin-releasing hormone agonist treatment on final adult height in boys with idiopathic central precocious puberty""",Q5,commentary
+34015904,Clinical findings influencing time to menarche post gonadotropin-releasing hormone agonist therapy in central precocious puberty,Q5,off-topic(menarche timing)
+33381203,The Therapeutic Effect of Shugan Xiehuo Formula in the Female Rat Model with Central Precocious Puberty,Q5,"off-topic(rat puberty,no growth endpoint)"
+26466612,MANAGEMENT OF ENDOCRINE DISEASE: Long-term outcomes of the treatment of central precocious puberty,Q5,review
+25650898,"Treated and untreated women with idiopathic precocious puberty: BMI evolution, metabolic outcome, and general health between third and fifth decades",Q5,off-topic(BMI/metabolic)
+24719967,Review of outcomes after cessation of gonadotropin-releasing hormone agonist treatment of girls with precocious puberty,Q5,review
+24709660,Pros and cons of GnRHa treatment for early puberty in girls,Q5,review
+19332438,Consensus statement on the use of gonadotropin-releasing hormone analogs in children,Q5,guideline
+18509122,Clinical practice. Precocious puberty,Q5,review
+41021200,History and Current Status of Growth Hormone Treatment in Children,Q6,review
+39857834,GH Therapy in Non-Growth Hormone-Deficient Children,Q6,review
+39281357,Optimizing paediatric specialist referrals for short stature in an era of multiple growth hormone indications,Q6,health-services/commentary
+38748847,Clinical practice guidelines for the care of girls and women with Turner syndrome,Q6,guideline
+38051162,The Treatment of Growth Disorders in Childhood and Adolescence,Q6,review
+37450564,Growth Hormone Treatment for Non-GHD Disorders: Excitement Tempered by Biology,Q6,editorial/review
+36714599,Growth in girls with Turner syndrome,Q6,review
+31684688,Oxandrolone for growth hormone-treated girls aged up to 18 years with Turner syndrome,Q6,meta-analysis(Cochrane)
+30930850,Growth Hormone Supplementation and Psychosocial Functioning to Adult Height in Turner Syndrome: A Questionnaire Study of Participants in the Canadian Randomized Trial,Q6,off-topic(psychosocial)
+32694884,Perspectives on growth promoting treatment for patients with Turner syndrome in Japan,Q6,review/perspective
+30560013,"A basic understanding of Turner syndrome: Incidence, complications, diagnosis, and treatment",Q6,review
+29632579,Management of Turner Syndrome,Q6,review
+29581156,Height outcome of the recombinant human growth hormone treatment in Turner syndrome: a meta-analysis,Q6,meta-analysis
+29344338,Current best practice in the management of Turner syndrome,Q6,review
+29301182,Diagnostic and therapeutic considerations in Turner syndrome,Q6,review
+27901060,Body composition and bone mineral status in patients with Turner syndrome,Q6,off-topic(body composition/BMD)
+27025909,The Biology of Stature,Q6,review
+39064802,Revealing the Potency of Growth Factors in Bovine Colostrum,Q7,review
+38051162,The Treatment of Growth Disorders in Childhood and Adolescence,Q7,review
+37805563,"Challenges in the care of individuals with severe primary insulin-like growth factor-I deficiency (SPIGFD): an international, multi-stakeholder perspective",Q7,review/consensus
+37579214,Frequency and Predictive Factors of Hypoglycemia in Patients Treated With rhIGF-1: Data From the Eu-IGFD Registry,Q7,off-topic(hypoglycemia safety)
+37202099,Progress on growth promoting therapies other than growth hormone,Q7,review
+36479333,Mecasermin for primary insulin-like growth factor-1 deficiency,Q7,review/drug-summary
+31555216,Genetics of Growth Disorders-Which Patients Require Genetic Testing?,Q7,review
+30761470,"Activation of Protein Kinase A Stimulates SUMOylation, Expression, and Transport Activity of Organic Anion Transporter 3",Q7,off-topic(anion transporter)
+30622975,Low Serum IGF-1 in Boys with Recent Onset of Juvenile Idiopathic Arthritis,Q7,"off-topic(IGF-1 assoc,no growth endpoint)"
+30370487,Update on Therapeutic Options in Lipodystrophy,Q7,review
+39797201,Kenny-Caffey Syndrome Type 2 (KCS2): A New Case Report and Patient Follow-Up Optimization,Q7,case-report
+36916904,Expanding the Phenotypic Spectrum of Kenny-Caffey Syndrome,Q7,case-series/phenotype
+30265312,Nonclassical GH Insensitivity: Characterization of Mild Abnormalities of GH Action,Q7,review
+29695048,Mecasermin in Insulin Receptor-Related Severe Insulin Resistance Syndromes: Case Report and Review of the Literature,Q7,case-report/review
+41501190,Fibrous-layer resident Angptl7(+) periosteal stem cells sense injury inflammation to orchestrate fracture repair,Q8,off-topic(fracture repair)
+40753276,A multi-tissue human knee single-cell atlas identifies that osteoarthritis reduces regenerative tissue stem cells while increasing inflammatory pain macrophages,Q8,off-topic(osteoarthritis)
+40386432,Constructing a cross-tissue human knee single-cell atlas identified osteoarthritis reduces regenerative tissue stem cells while increasing inflammatory pain macrophages,Q8,off-topic(OA preprint)
+40140357,Callus organoids reveal distinct cartilage to bone transition mechanisms across donors and a role for biological sex,Q8,off-topic(fracture callus)
+40127565,"Dietary effect of Galega orientalis Lam. flavonoid extract on broilers' growth performance, antioxidant capacity, immune function, and bone metabolism",Q8,off-topic(broiler growth performance)
+28903047,Caloric Restriction Promotes Structural and Metabolic Changes in the Skin,Q8,off-topic(skin)
+26830436,"Stem cells of the suture mesenchyme in craniofacial bone development, repair and regeneration",Q8,off-topic(craniofacial)
+26485225,Regulation of Long Bone Growth in Vertebrates; It Is Time to Catch Up,Q8,review
+26245375,Self-renewing diploid Axin2(+) cells fuel homeostatic renewal of the liver,Q8,off-topic(liver)
+25278615,Stem cell signaling. An integral program for tissue renewal and regeneration: Wnt signaling and stem cell control,Q8,review/perspective
+25152035,Determination of differential gene expression profiles in superficial and deeper zones of mature rat articular cartilage using RNA sequencing of laser microdissected tissue specimens,Q8,off-topic(articular cartilage)
+24905167,Prolonged fasting reduces IGF-1/PKA to promote hematopoietic-stem-cell-based regeneration and reverse immunosuppression,Q8,off-topic(fasting/HSC)
+24740736,Recent research on the growth plate: Recent insights into the regulation of the growth plate,Q8,review
+24311688,Interfollicular epidermal stem cells self-renew via autocrine Wnt signaling,Q8,off-topic(epidermis)
+40869011,Coupled Bone-Muscle Degeneration in Chronic Pancreatitis: A Juvenile Porcine Model of Secondary Osteosarcopenia,Q8,off-topic(osteosarcopenia degeneration)
+40244030,Prof. Dr. Giovanni De Toni-Editorial for the Commemoration of a Pediatric Luminary,Q8,editorial
+39834391,A phase-transited lysozyme coating doped with strontium on titanium surface for bone repairing via enhanced osteogenesis and immunomodulatory,Q8,off-topic(biomaterial)
+38267638,"The roles and regulatory mechanisms of TGF-β and BMP signaling in bone and cartilage development, homeostasis and disease",Q8,review
+36509917,Cartilage calcification in osteoarthritis: mechanisms and clinical relevance,Q8,review
+33476325,Runx1 is a central regulator of osteogenesis for bone homeostasis by orchestrating BMP and WNT signaling pathways,Q8,off-topic(bone homeostasis)
+32509378,Comparison of skeletal and soft tissue pericytes identifies CXCR4(+) bone forming mural cells in human tissues,Q8,off-topic(pericytes)
+32463816,"Osteocalcin is necessary for the alignment of apatite crystallites, but not glucose metabolism, testosterone synthesis, or muscle mass",Q8,off-topic(bone quality/metabolism)
+29928541,The art of building bone: emerging role of chondrocyte-to-osteoblast transdifferentiation in endochondral ossification,Q8,review
+29370110,Mesenchymal Stem Cells: Cell Fate Decision to Osteoblast or Adipocyte and Application in Osteoporosis Treatment,Q8,review
+29364278,"Isolation, Culture, and Differentiation of Bone Marrow Stromal Cells and Osteoclast Progenitors from Mice",Q8,methods
+26868907,Fate decision of mesenchymal stem cells: adipocytes or osteoblasts?,Q8,review
+41604011,Bridging skeletal stem cell diversity and human skeletal modeling,Q9,review
+41096725,Growth Plate Skeletal Stem Cells and Their Actions Within the Stem Cell Niche,Q9,review
+39463341,Growth plate closure and therapeutic interventions,Q9,review
+37837512,The Origin and Fate of Chondrocytes: Cell Plasticity in Physiological Setting,Q9,review
+31830758,Postnatal skeletal growth is driven by the epiphyseal stem cell niche: potential implications to pediatrics,Q9,review/perspective
+29619368,The Chondro-Osseous Continuum: Is It Possible to Unlock the Potential Assigned Within?,Q9,review
+27742768,Osteonecrosis in children with acute lymphoblastic leukemia,Q9,off-topic(osteonecrosis)
+25883921,Pubertal growth and epiphyseal fusion,Q9,review
+24740736,Recent research on the growth plate: Recent insights into the regulation of the growth plate,Q9,review
+23959079,Cartilage to bone transitions in health and disease,Q9,review
+37082116,Glucocorticoid induced bone disorders in children: Research progress in treatment mechanisms,Q9,review
+32458695,Properties of Cartilage-Subchondral Bone Junctions: A Narrative Review with Specific Focus on the Growth Plate,Q9,review
+32415542,The Actions of IGF-1 in the Growth Plate and Its Role in Postnatal Bone Elongation,Q9,review
+32380258,Wnt signaling in chondroprogenitors during long bone development and growth,Q9,review
+32240983,Home for a rest: stem cell niche of the postnatal growth plate,Q9,review/perspective
+26485225,Regulation of Long Bone Growth in Vertebrates; It Is Time to Catch Up,Q9,review
+36064195,Comprehensive genetic testing approaches as the basis for personalized management of growth disturbances: current status and perspectives,Q10,review
+29626067,Endothelial C-Type Natriuretic Peptide Acts on Pericytes to Regulate Microcirculatory Flow and Blood Pressure,Q10,off-topic(blood pressure)
+27030537,Molecular Physiology of Membrane Guanylyl Cyclase Receptors,Q10,review
+25961942,PDE3A mutations cause autosomal dominant hypertension with brachydactyly,Q10,off-topic(hypertension)
+22588483,Structure-based statistical analysis of transmembrane helices,Q10,off-topic/methods(TM helices)
+21914472,"Guanylyl cyclase structure, function and regulation",Q10,review
+21375693,"Structure, signaling mechanism and regulation of the natriuretic peptide receptor guanylate cyclase",Q10,review
+20066666,Reversibly bound chloride in the atrial natriuretic peptide receptor hormone-binding domain: possible allosteric regulation and a conserved structural motif for the chloride-binding site,Q10,off-topic(biophysics)
+38713083,Phosphorylation-Dependent Regulation of Guanylyl Cyclase (GC)-A and Other Membrane GC Receptors,Q10,review
+35741432,Physiological and Pathophysiological Effects of C-Type Natriuretic Peptide on the Heart,Q10,off-topic(cardiac)
+35682595,Molecular Mechanism of Induction of Bone Growth by the C-Type Natriuretic Peptide,Q10,review
+33499110,Natriuretic Peptide Expression and Function in GH3 Somatolactotropes and Feline Somatotrope Pituitary Tumours,Q10,off-topic(pituitary tumor)
+33002060,Is C-type natriuretic peptide regulated by a feedback loop? A study on systemic and local autoregulatory effect,Q10,mechanism-regulation(no growth endpoint)
+28899838,Design and evaluation of novel natriuretic peptide derivatives with improved pharmacokinetic and pharmacodynamic properties,Q10,off-topic/methods(peptide PK)
+25883921,Pubertal growth and epiphyseal fusion,Q10,review
+25860030,Increased Bone Turnover and Possible Accelerated Fracture Healing in a Murine Model With an Increased Circulating C-Type Natriuretic Peptide,Q10,off-topic(bone turnover/fracture)
+22045636,Sixteen years and counting: the current understanding of fibroblast growth factor receptor 3 (FGFR3) signaling in skeletal dysplasias,Q10,review
+37877951,Achondroplasia Natural History Study (CLARITY): 60-year experience with hydrocephalus in achondroplasia from four skeletal dysplasia centers,Q11,off-topic(hydrocephalus)
+37648760,Controversial dwarfism drugs spur growth - but do they improve health?,Q11,news/editorial
+33015949,Cranial synchondroses of primates at birth,Q11,descriptive-anatomy
+31553848,C-Type Natriuretic Peptide Analogue Therapy in Children with Achondroplasia. Reply,Q11,correspondence(reply)
+30606190,Achondroplasia: a comprehensive clinical review,Q11,review
+30228226,The inositol phosphatase SHIP2 enables sustained ERK activation downstream of FGF receptors by recruiting Src kinases,Q11,"off-topic(FGF signaling,no growth endpoint)"
+29694819,Prenatal Correction of X-Linked Hypohidrotic Ectodermal Dysplasia,Q11,off-topic(ectodermal dysplasia)
+40584014,Tackling musculoskeletal disorders in an aging world: Advances in orthopaedic translational research,Q11,review
+39290254,Copper homeostasis and cuproptosis in health and disease,Q11,review
+38012096,TGF-β3 mediates mitochondrial dynamics through the p-Smad3/AMPK pathway,Q11,"off-topic(mitochondrial dynamics,no growth endpoint)"
+36225932,Cuproptosis-related gene FDX1 expression correlates with the prognosis and tumor immune microenvironment in clear cell renal cell carcinoma,Q11,off-topic(cancer)
+35991547,Pan-cancer analyses confirmed the cuproptosis-related gene FDX1 as an immunotherapy predictor and prognostic biomarker,Q11,off-topic(cancer)
+35811356,Intracellular antibody targeting HBx suppresses invasion and metastasis in hepatitis B virus-related hepatocarcinogenesis via protein phosphatase 2A-B56γ-mediated dephosphorylation of protein kinase B,Q11,off-topic(cancer)
+35726138,Recharge of chondrocyte mitochondria by sustained release of melatonin protects cartilage matrix homeostasis in osteoarthritis,Q11,off-topic(cartilage homeostasis)
+35697120,Protein phosphatase 2A-B56γ-Drp1-Rab7 signaling axis regulates mitochondria-lysosome crosstalk to sensitize the anti-cancer therapy of hepatocellular carcinoma,Q11,off-topic(cancer)
+35354936,Cuproptosis: a copper-triggered modality of mitochondrial cell death,Q11,off-topic(cuproptosis)
+41838116,Efficacy and safety of limb lengthening in achondroplasia: A systematic review and meta-analysis,Q12,systematic-review/meta-analysis
+40821249,Vosoritide (Voxzogo) for Achondroplasia: A Review of Clinical and Real-World Evidence,Q12,review
+40275369,"Aesthetic lower limb lengthening techniques: a systematic review of efficacy, complications, and patient satisfaction",Q12,systematic-review
+34332609,The first European consensus on principles of management for achondroplasia,Q12,guideline
+32952908,Quality of Life Evaluation Following Limb Lengthening Surgery in Patients with Achondroplasia,Q12,off-topic(QoL)
+32140790,"Limb lengthening history, evolution, complications and current concepts",Q12,review
+30606190,Achondroplasia: a comprehensive clinical review,Q12,review
+27512222,Limb lengthening in achondroplasia,Q12,review
+27174086,Prevention of pin site infection in external fixation: a review of the literature,Q12,review
+39391573,Achondroplasia current concept of orthopaedic management,Q12,review
+39289684,International expert opinion on the considerations for combining vosoritide and limb surgery: a modified delphi study,Q12,consensus/delphi
+37382866,Burden and Treatment of Achondroplasia: A Systematic Literature Review,Q12,systematic-review
+37294397,Interventions for improving clinical outcomes and health-related quality-of-life for people living with skeletal dysplasias: an evidence gap map,Q12,review
+35698202,Literature review and expert opinion on the impact of achondroplasia on medical complications and health-related quality of life and expectations for long-term impact of vosoritide: a modified Delphi study,Q12,review/expert-opinion
+21360257,Analysis of corticalization using the pixel value ratio for fixator removal in tibial lengthening,Q12,methods(imaging)
+8156692,Variables affecting time to bone healing during limb lengthening,Q12,off-topic(healing time)
+41096569,"Genetic Variability in Child Growth Among South American Populations: A Perspective Integrating Population Genetics, Growth Standards, and Precision Growth Medicine",Q15,review/perspective
+39749023,Monogenic causes of familial short stature,Q15,review
+39725386,[Discussion on the genetic mechanisms and efficacy of growth hormone therapy in children with idiopathic short stature],Q15,review
+31795305,"Growth Plate Chondrocytes: Skeletal Development, Growth and Beyond",Q15,review
+26437621,Short and tall stature: a new paradigm emerges,Q15,review
+25741868,Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology,Q15,guideline/methods
+40604385,Novel ANKRD17 variants implicate synaptic and mitochondrial disruptions in intellectual disability and autism spectrum disorder,Q15,off-topic(neurodevelopment)
+34456977,Retrospective Diagnosis of a Novel ACAN Pathogenic Variant in a Family With Short Stature: A Case Report and Review of the Literature,Q15,case-report/review
+34265844,Highly accurate protein structure prediction with AlphaFold,Q15,off-topic(AlphaFold methods)
+34187405,Prenatal diagnosis of a novel pathogenic variation in the ACAN gene presenting with isolated shortening of fetal long bones in the second trimester of gestation: a case report,Q15,case-report(prenatal)
+32846772,Short stature with precocious puberty caused by aggrecan gene mutation: A case report,Q15,case-report
+31747937,A child with a novel ACAN missense variant mimicking a septic arthritis,Q15,case-report

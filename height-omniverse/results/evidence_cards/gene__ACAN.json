@@ -10,7 +10,7 @@
     "specificity": 0.3,
     "gp_expression": 13.53
   },
-  "compounds": "no qualifying evidence located after 3 completed search round(s)",
+  "compounds": "no qualifying evidence located after 4 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "41967490",
@@ -86,6 +86,21 @@
       "pmid": "34605228",
       "title": "Identification of novel ACAN mutations in two Chinese families and genotype-phenotype correlation in patients with 74 pathogenic ACAN variations.",
       "year": "2021"
+    },
+    {
+      "pmid": "28396070",
+      "title": "Novel pathogenic ACAN variants in non-syndromic short stature patients",
+      "year": "2017"
+    },
+    {
+      "pmid": "27710243",
+      "title": "ACAN Gene Mutations in Short Children Born SGA and Response to Growth Hormone Treatment",
+      "year": "2017"
+    },
+    {
+      "pmid": "29302920",
+      "title": "A balanced reciprocal translocation t(10;15)(q22.3;q26.1) interrupting ACAN gene in a family with proportionate short stature",
+      "year": "2018"
     }
   ],
   "dual_evidence": {

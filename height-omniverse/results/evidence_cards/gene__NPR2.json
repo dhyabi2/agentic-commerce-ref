@@ -10,7 +10,7 @@
     "specificity": 0.52,
     "gp_expression": 0.51
   },
-  "compounds": "no qualifying evidence located after 3 completed search round(s)",
+  "compounds": "no qualifying evidence located after 4 completed search round(s)",
   "literature_mentions": [
     {
       "pmid": "41967490",
@@ -50,6 +50,16 @@
     {
       "pmid": "24259409",
       "title": "Overgrowth syndrome associated with a gain-of-function mutation of the natriuretic peptide receptor 2 (NPR2) gene.",
+      "year": "2014"
+    },
+    {
+      "pmid": "24001744",
+      "title": "Heterozygous mutations in natriuretic peptide receptor-B (NPR2) gene as a cause of short stature in patients initially classified as idiopathic short stature",
+      "year": "2013"
+    },
+    {
+      "pmid": "24471569",
+      "title": "Identification and functional characterization of two novel NPR2 mutations in Japanese patients with short stature",
       "year": "2014"
     }
   ],

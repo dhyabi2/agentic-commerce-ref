@@ -8,7 +8,7 @@
 - Turner syndrome (double-blind RCT to final height): surrogate=velocity/BA increase; adult height=+~4.6 cm final height vs placebo (on GH); **translated=YES** [PMID 21493672]
 
 ## Interactions (pathway convergence; blank=untested, NOT safe/additive)
-- no qualifying evidence located after 3 completed search round(s)
+- no qualifying evidence located after 4 completed search round(s)
 
 _Provenance: PMID 21493672_
 
