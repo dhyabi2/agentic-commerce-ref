@@ -1,0 +1,5 @@
+# large / reproducible artifacts — not tracked
+.venv/
+data/
+*.h5ad
+*.tar

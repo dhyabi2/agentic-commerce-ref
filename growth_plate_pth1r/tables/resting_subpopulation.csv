@@ -1,0 +1,10 @@
+,value
+resting_pth1r_pos_frac,0.6334792122538293
+observed_knn_homophily,0.6712206285440601
+null_homophily_mean,0.6333423259548472
+null_homophily_sd,0.007963061907125537
+homophily_z,4.756750986773281
+homophily_perm_p,0.0004997501249375312
+morans_I_pth1r_resting,0.1850527388662687
+morans_I_null_mean,-0.0008717000888666148
+morans_I_perm_p,0.0004997501249375312
