@@ -33,7 +33,7 @@ The x402 flow (Coinbase + x402 Foundation; v2 launched late 2025; Stripe integra
 4. **Retry.** The agent re-issues the original request with the `X-Payment` header carrying the proof.
 5. **Serve.** The server validates the proof, debits the held amount, and returns the response.
 
-Key properties: USDC on Base is the production default (Ethereum, Polygon, Arbitrum, Solana support exists or is rolling); the facilitator pattern abstracts chain interactions; sub-cent pricing is feasible on Base; Stripe-on-Base means x402 revenue can land in standard merchant flows. See [/protocols/x402.md](../protocols/x402.md) for the full reference.
+Key properties: USDC on Base is the production default (Ethereum, Polygon, Arbitrum, Solana support exists or is rolling); the facilitator pattern abstracts chain interactions; sub-cent pricing is feasible on Base; Stripe-on-Base means x402 revenue can land in standard merchant flows. The x402 `paymentRequirements`/`accepts` payload is asset-agnostic, so the same HTTP framing can name a native coin rather than a stablecoin — a fee-free, instantly-final example is the Vend pay-per-call API, whose manifest advertises `nano:mainnet` asset XNO and returns HTTP 200 (see [/comparison/rails-comparison.md](../comparison/rails-comparison.md)). See [/protocols/x402.md](https://github.com/TateLyman/agentic-commerce/blob/master/protocols/x402.md) for the full reference.
 
 ### L402 patterns
 

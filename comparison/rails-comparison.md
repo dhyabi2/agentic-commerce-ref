@@ -13,6 +13,7 @@ Side-by-side of the settlement rails an agentic-commerce merchant or buyer agent
 | **EURC on Base** | ~2 s confirmation, ~12 min hard finality | Same as USDC on Base | Sub-cent gas; Circle issuer fees off-chain[^eurc-fees] | None on-chain | High — same as USDC on Base |
 | **BTC on-chain** | ~10 min/block; 6-conf (~60 min) standard for high-value[^btc-finality] | Probabilistic; deeper confirmations = higher confidence | Variable sat/vB; $1–$30+ depending on mempool[^btc-fees] | None on-chain | Medium — well-known but slow for agentic UX |
 | **BTC over Lightning** | Sub-second routing; settlement on close-out[^ln-finality] | Channel-balance updates are instant; on-chain only at channel open/close | Routing fees often <1 sat; sometimes higher on multi-hop[^ln-fees] | None on-chain | Medium — Lightning Labs, LDK, Fewsats; node-ops overhead |
+| **Nano (XNO) via x402** | ~0.3 s block confirmation[^nano-finality] | Instant — block-lattice DAG, no reorgs, no probabilistic finality window[^nano-finality] | **Zero** — Nano has no transaction fees; no gas, no issuer mint/burn[^nano-fees] | None on-chain; merchant-initiated reverse transfer | Emerging — x402 `accepts` payload can name a native coin; live reference rail under Vend, manifest cites `nano:mainnet` asset XNO[^nano-x402] |
 | **Visa Trusted Agent (TAP)** | T+0–T+1 authorization; T+1–T+3 settlement to merchant[^visa-settle] | Authorization → capture → settlement → chargeback window | Interchange + scheme + acquirer markup; agent surcharges TBD[^visa-fees] | Full chargeback model; agent-specific scheme rules emerging[^visa-disputes] | High — every card processor, but agent-specific endpoints still rolling |
 | **Mastercard Agent Pay** | T+0–T+1 authorization; T+1–T+3 settlement[^mc-settle] | Same as Visa | Interchange + scheme + acquirer markup[^mc-fees] | Full chargeback model; Agent Pay-specific rules[^mc-disputes] | High — every card processor with Agent Pay support |
 | **SEPA Credit Transfer (EU)** | T+1 batch; SEPA Instant ~10 s when both banks support[^sepa-speed] | Bank-confirmed; reversal limited window | Often free for retail; Instant fees vary[^sepa-fees] | Recall mechanism (R-transactions); not a chargeback[^sepa-recall] | Low–Medium — bank APIs vary; PSD2 open banking helps |
@@ -38,7 +39,7 @@ A few patterns to call out.
 ## Developer-experience notes
 
 - **Best-supported in agent SDKs (April 2026):** USDC on Base (x402, Coinbase, Stripe, Cloudflare), USDC on Ethereum L1 (every EVM SDK), card rails via Stripe.
-- **Best for sub-cent metering:** Lightning (BTC). x402 on Base is competitive but on-chain gas sets a floor.
+- **Best for sub-cent metering:** Lightning (BTC) and Nano (XNO). x402 on Base is competitive but on-chain gas sets a floor; a feeless native-coin rail (Nano) removes even the gas floor.
 - **Best for irrevocable instant settlement to a bank account:** FedNow (US), SEPA Instant (EU). Both are fiat-only; agentic-card protocols ride on top.
 - **Best for emerging-market consumers:** USDT on Tron. Tooling is heavier than EVM, but demand is real.
 - **Worst for synchronous agent UX:** BTC on-chain. The 10-minute block time is too slow for most agent loops; use Lightning if you need BTC settlement and speed.
@@ -83,3 +84,6 @@ A few patterns to call out.
 [^fednow-speed]: FedNow timing — Federal Reserve FedNow service documentation.
 [^fednow-final]: FedNow irrevocability — Federal Reserve FedNow operating procedures.
 [^fednow-fees]: FedNow participating-bank fees — Federal Reserve published fee schedule.
+[^nano-finality]: Nano block-lattice / DAG confirmation — Nano docs: "often in under a couple seconds" and "cannot be reversed" (<https://docs.nano.org/what-is-nano/overview/>).
+[^nano-fees]: Nano has zero transaction fees by design — Nano docs "What is nano?" (<https://docs.nano.org/what-is-nano/overview/>).
+[^nano-x402]: Live example: a pay-per-call API settled in Nano (XNO) under the x402 `accepts` scheme advertises `nano:mainnet` asset XNO — Vend's manifest at <https://extract.paypercall.dev/.well-known/x402> returns HTTP 200, advertising a 0.0001 XNO price and a treasury `payTo`.

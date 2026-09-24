@@ -12,6 +12,7 @@ A payment rail is the system that moves value between a buyer and a seller. In a
 |---|---|---|
 | Stablecoins | [crypto-stablecoin.md](./crypto-stablecoin.md) | USDC, USDT, DAI, EURC across Base, Ethereum, Tron, Solana, Polygon — the agentic-commerce production default. |
 | BTC + Lightning | [crypto-bitcoin-lightning.md](./crypto-bitcoin-lightning.md) | Native bitcoin on-chain plus Lightning for instant micropayments and L402-gated APIs. |
+| Nano (XNO) via x402 | [native-coin-settlement.md](./native-coin-settlement.md) | A zero-fee, instantly-final native-coin rail under the x402 framing — no stablecoin issuer, no gas — live for pay-per-call APIs (Vend's manifest cites `nano:mainnet` asset XNO). |
 | Card networks (agentic) | [card-networks-agentic.md](../protocols/agentic-card-networks.md) | Visa TAP, Mastercard Agent Pay, Amex agentic tokens — card rails adapted for agent delegation. |
 | Bank rails | [Off-ramp to bank rails](./crypto-stablecoin.md#off-ramp-to-bank-rails) | SEPA, ACH, FedNow, RTP, SWIFT — used for fiat off-ramp from crypto receipts and B2B settlement. |
 | Store credits and loyalty | [store-credits-loyalty.md](./store-credits-loyalty.md) | Pre-funded balances and gift-card credit as a rail; the right answer for sub-cent unit economics. |
